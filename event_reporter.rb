@@ -1,10 +1,18 @@
 #!/usr/bin/env ruby
 require "csv"
 
-# Class Definition
+# Ruby Core extensions
+class Hash
+  def cli_print_format
+    self.map{|key, value|  "#{Helpers.green(key)}\n #{value}"}.join("\n") + "\n"
+  end
+end
+
+
 class EventReporter
   DEFAULT_FILENAME = "event_attendees.csv"
-  VALID_QUEUE_ARGS = %W{count clear print}
+  INVALID_PHONE_NUMBER = "0"*10
+  VALID_QUEUE_ARGS = %W{count clear print save}
   PRINT_HEADERS = ['LAST NAME', 'FIRST NAME', 'EMAIL', 'ZIPCODE', 'CITY', 'STATE', 'ADDRESS']
   PRINT_ATTRIBUTES_ORDER = [:'last_name', :'first_name', :'email_address', :'zipcode', :'city', :'state', :'street']
 
@@ -15,39 +23,88 @@ class EventReporter
     @queue = []
   end
 
+  # Search the existing queue and find all instances where the given attribute matches
+  # the passed criteria.
+  # Results are stored in the queue and not printed right away, but an indication of the amount
+  # of matching results is returned.
+  # @param [String, Symbol] attribute The attribute to apply the search on.
+  # @param [String] criteria the exact match we are looking for.
+  # @return [String] An indication about the amount of matches found in the queue.
   def find_all(attribute, criteria)
     @queue.clear
     results = []
     @content.each do |row|
-      results << Hash[@content.headers.zip(row.fields)] if row[attribute.to_sym] == criteria
+      if row[attribute.to_sym] == criteria
+        match = Hash[@content.headers.zip(row.fields)]
+        # don't store data we don't need
+        match.delete_if{|k,v| !PRINT_ATTRIBUTES_ORDER.include?(k) }
+        match[:zipcode] = clean_zipcode(match[:zipcode])
+        results << match
+      end
     end
     @queue += results unless results.empty?
-    "#{results.length} results found\n"
+    "#{results.length} results found.\n"
   end
 
-  def queue(arg)
-    case arg
+  # Process the queue.
+  # @param [String] cmd Queue command to execute.
+  # @param [NilClass, Array] args Extra arguments to be used with the print command.
+  # @return [String] The result of the queue command.
+  def queue(cmd, args=nil)
+    case cmd
     when 'count'
       "#{@queue.length} records are in the current queue.\n"
     when 'clear'
       @queue.clear
       "Queue was emptied.\n"
     when 'print'
-      output = []
-      output << PRINT_HEADERS.join("\t")
-      @queue.each do |row|
-        output << print_row_format(row)
+      if args.nil? || args.empty?
+        queue_print_format
+      elsif args[0] == 'by' && args[1]
+        sorted_queue_print_format_by(args[1].to_sym)
+      else
+        "Unknown queue print command, see the help for more info.\n"
       end
-      output.join("\n") + "\n"
+    when 'save'
+      "TODO\n"
     else
-      return "Unknown arg #{arg}, only #{VALID_QUEUE_ARGS.join(', ')} are supported\n"
+      return "Unknown arg #{arg}, only #{VALID_QUEUE_ARGS.join(', ')} are supported.\n"
     end
   end
 
-  ###
+  ### For internal consumption only ###
 
+  # Format a queue in a way that can be nicely printed to screen
+  # @param [Array] queue Optional queue to print, An array of Hash instances matching the csv is expected.
+  # @return [String] The output ready to be printed to screen
+  def queue_print_format(queue=@queue)
+    output = []
+    output << Helpers.green(PRINT_HEADERS.join("\t"))
+    output += queue.map{|row| print_row_format(row)}
+    output.join("\n") + "\n"
+  end
+
+  # Sort a queue and format it for print
+  # @see #queue_print_format
+  # @param [Symbol] attr The attribute to sort by the queue before printing it.
+  # @return [String] The output ready to be printed to screen.
+  def sorted_queue_print_format_by(attr)
+    return "Unknown queue sorting attribute: #{attr}, try one of the following: #{PRINT_ATTRIBUTES_ORDER.join(', ')}.\n" unless PRINT_ATTRIBUTES_ORDER.include?(attr)
+    queue_print_format(@queue.sort_by{|item| item[attr]})
+  end
+
+  # Format a row in a way that can be nicely printed to screen
+  # @param [Hash] row_hash A queue row to format
+  # @return [String] The formatted string version of the passed param.
   def print_row_format(row_hash)
     PRINT_ATTRIBUTES_ORDER.map{|attr| row_hash[attr]}.join("\t")
+  end
+
+  # standardize passed zipcode strings.
+  # @param [String] zipcode The string to normalize
+  # @return [String]
+  def clean_zipcode(zipcode)
+    zipcode.nil? ? INVALID_ZIPCODE : zipcode.rjust(5, "0")
   end
 end
 
@@ -60,12 +117,6 @@ module Helpers
   def self.red(text); colorize(text, "\e[31m"); end
   def self.green(text); colorize(text, "\e[32m"); end
   def self.bold(text); colorize(text, "\e[1m"); end
-end
-
-class Hash
-  def cli_print_format
-    self.map{|key, value|  "#{Helpers.green(key)}\n #{value}"}.join("\n") + "\n"
-  end
 end
 
 module CLIHelp
@@ -90,14 +141,16 @@ module CLIHelp
   end
 
   def self.for(cmd)
-    return full_help if cmd == 'help' || cmd.empty?
-    cmd_key = commands.keys.find{|c| c.gsub(/<.*/, '').strip == cmd.strip} 
-    if cmd_key
-      ">> #{Helpers.green(cmd_key)}\n#{commands[cmd_key]}\n"
-    elsif cmds = commands.keys.find_all{|c| c.gsub(/<.*/, '').strip =~ /#{cmd.strip}/i}
-      commands.reject{|c| !cmds.include?(c) }.cli_print_format
+    return full_help if cmd.nil? || cmd == 'help' || cmd.empty?
+    # find the matching command by removing the user input arguments
+    cmd_key = commands.keys.find{|c| c.gsub(/<.*/, '').strip == cmd.strip}
+    return ">> #{Helpers.green(cmd_key)}\n#{commands[cmd_key]}\n" if cmd_key
+    # find partial matches in the command list to help the user
+    cmds = commands.keys.find_all{|c| c.gsub(/<.*/, '').strip =~ /#{cmd.strip}/i}
+    if cmds.empty?
+      Helpers.red("Unknown command: `#{cmd}`, try one of the following commands:\n#{full_help}")
     else
-      full_help 
+      commands.reject{|c| !cmds.include?(c) }.cli_print_format
     end
   end
 
@@ -113,7 +166,7 @@ module CLICommands
 
   def self.load(filename=nil)
     @reporter = EventReporter.new(filename)
-    "Event reporter ready to be searched\n"
+    "Event reporter ready to be searched.\n"
   end
 
   def self.help(command='')
@@ -123,15 +176,15 @@ module CLICommands
 
   # @param [String] arg Can be count, clear or print, see CLIHelp for more details 
   #   about each command
-  def self.queue(arg)
+  def self.queue(arg, *extra)
     if_reporter do
-      @reporter.queue(arg)
+      @reporter.queue(arg, extra)
     end
   end
 
   def self.find(attribute=nil, criteria=nil)
     if_reporter do
-      return "maformed request, you need to call `find <attribute> <criteria>" if attribute.nil? || criteria.nil?
+      return "maformed request, you need to call `find <attribute> <criteria>`\n" if attribute.nil? || criteria.nil?
       @reporter.find_all(attribute, criteria)
     end
   end
@@ -155,7 +208,8 @@ end
 trap("INT") { print "Thanks for visiting, come again!\n"; exit }
 
 
-print Helpers.bold("Welcome to EventReporter, what you would like to do today?\n")
+print Helpers.bold("Welcome to EventReporter, what you would like to do today?\n\
+Type `help` for more info on the available commands.\n")
 while command = gets.chomp
   if command.empty? || command.strip == 'help'
     print CLIHelp.for(command)
@@ -163,6 +217,7 @@ while command = gets.chomp
     args = command.split(/\s+/)
     cmd = args[0]
     if CLICommands.respond_to?(cmd)
+      print Helpers.green(" > #{command}\n")
       if args.size > 1
         print CLICommands.send(cmd, *args[1..-1])
       else

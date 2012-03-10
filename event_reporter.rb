@@ -1,55 +1,87 @@
 #!/usr/bin/env ruby
 require "csv"
 
-# Ruby Core extensions
+# Reopening `Hash` to inject custom methods
 class Hash
+  # Prints a `Hash` instance to be printed on screen.
   def cli_print_format
     self.map{|key, value|  "#{Helpers.green(key)}\n #{value}"}.join("\n") + "\n"
   end
 end
 
+# Reopening `Array` to inject custom methods
 class Array
+
+  # Converts an array of Hashes into a CSV string compliant to the `EventReporter` output.
+  # Note that this code is very specific to this use case and I wouldn't do that in a larger project.
+  # Or if this code was to be used in a library.
+  #
+  # @return [String] CSV compliant string
   def to_csv_string
     # We shouldn't rely on the hash order event tho it's a Ruby 1.9 feature
     CSV.generate do |csv|
       # add headers
       csv << EventReporter::PRINT_HEADERS
       self.each do |row|
-        csv << row.values_at(*EventReporter::PRINT_ATTRIBUTES_ORDER)
+        csv << row.values_at(*EventReporter::PRINT_ATTRIBUTES_ORDER) if row.respond_to?(:values_at)
       end
     end
   end
+
 end
 
+# Various helpers "packaged" in a module.
 module Helpers
+  # Zipcode to use instead of an invalid/bad zipcode
   INVALID_ZIPCODE = "00000"
 
+  # Colorizes a string to be printed on screen using ANSI codes.
   # @see http://en.wikipedia.org/wiki/ANSI_escape_code
+  #
+  # @param [String] The string to colorize.
+  # @param [String] ANSI escape code.
+  # @return [String] colorized string.
   def self.colorize(text, color_code)
     "#{color_code}#{text}\e[0m"
   end
 
+  # Formats the passed string to be printed in red on screen
+  # @param [String] text The text to colorize.
+  # @return [String]
   def self.red(text); colorize(text, "\e[31m"); end
+
+  # Formats the passed string to be printed in green on screen
+  # @param [String] text The text to colorize.
+  # @return [String]
   def self.green(text); colorize(text, "\e[32m"); end
+
+  # Formats the passed string to be printed in gray on screen
+  # @param [String] text The text to colorize.
+  # @return [String]
   def self.gray(text); colorize(text, "\e[37m"); end
+
+  # Formats the passed string to be printed boldon screen
+  # @param [String] text The text to colorize.
+  # @return [String]
   def self.bold(text); colorize(text, "\e[1m"); end
 
-  # standardize passed zipcode strings.
+  # Standardizes passed zipcode strings.
   # @param [String] zipcode The string to normalize
-  # @return [String]
+  # @return [String] standardized zipcode string
   def self.clean_zipcode(zipcode)
     zipcode.nil? ? INVALID_ZIPCODE : zipcode.rjust(5, "0")
   end
 
-  # Format a row in a way that can be nicely printed to screen
+  # Formats a row/record in a way that can be nicely printed on screen
   # @param [Hash] row_hash A queue row to format
+  # @param [String] joined_by A string used to join all the row/record attributs
   # @return [String] The formatted string version of the passed param.
   def self.print_row_format(row_hash, joined_by="\t")
     EventReporter::PRINT_ATTRIBUTES_ORDER.map{|attr| row_hash[attr]}.join(joined_by)
   end
 
-  # Format a queue in a way that can be nicely printed to screen
-  # @param [Array] queue The queue to print, An array of Hash instances matching the csv is expected.
+  # Formats a queue in a way that can be nicely printed to screen
+  # @param [Array] queue The queue to print, An array of Hash instances matching the csv format is expected.
   # @return [String] The output ready to be printed to screen
   def self.queue_print_format(queue)
     output = []
@@ -60,22 +92,34 @@ module Helpers
 
 end
 
-
+# This class allows us to load and process a CSV file.
+# One can search the content of the file, sort the results, print or save them to another file
+# via a virtual "queue"
 class EventReporter
-  DEFAULT_FILENAME = "event_attendees.csv"
+
+  # Default CSV file used as a default.
+  DEFAULT_CSV = "event_attendees.csv"
+  # Arguments that are available when calling the queue command.
   VALID_QUEUE_ARGS = %W{count clear print save}
+  # Headers used to print and save the filtered results.
   PRINT_HEADERS = ['LAST NAME', 'FIRST NAME', 'EMAIL', 'ZIPCODE', 'CITY', 'STATE', 'ADDRESS']
+  # sorted methods available on each record/row.
   PRINT_ATTRIBUTES_ORDER = [:'last_name', :'first_name', :'email_address', :'zipcode', :'city', :'state', :'street']
 
-  def initialize(filename=nil)
-    filename ||= DEFAULT_FILENAME
-    
-    print "loading and parsing #{filename}\n"
-    @content = CSV.read(filename, {:headers => true, :header_converters => :symbol})
+  # Creates a new instance of the reporter.
+  # In not mentioned otherwise, the file defined in the `DEFAULT_CSV` constant
+  # is loaded.
+  # @param [String] path The path to a CSV file compliant with the expected format (see `PRINT_ATTRIBUTES_ORDER`).
+  # @raise [Errno::ENOENT] if the passed path doesn't exist or not of a valid type.
+  # @param [String] file
+  def initialize(path=nil)
+    path ||= DEFAULT_CSV
+    print "loading and parsing #{path}\n"
+    @content = CSV.read(path, {:headers => true, :header_converters => :symbol})
     @queue = []
   end
 
-  # Search the existing queue and find all instances where the given attribute matches
+  # Searches the existing queue and find all instances where the given attribute matches
   # the passed criteria.
   # Results are stored in the queue and not printed right away, but an indication of the amount
   # of matching results is returned.
@@ -102,7 +146,8 @@ class EventReporter
     end
   end
 
-  # Process the queue.
+  # Processes the queue based on the passed command.
+  # See `VALID_QUEUE_ARGS` for the available queue commands or even better check the help.
   # @param [String] cmd Queue command to execute.
   # @param [NilClass, Array] args Extra arguments to be used with the print command.
   # @return [String] The result of the queue command.
@@ -132,9 +177,11 @@ class EventReporter
     end
   end
 
-  ### For internal consumption only ###
+  ### Meant for internal consumption only ###
   
-
+  # Saves the current queue as a csv file.
+  # @param [String] Path to the file to save.
+  # @return [String] Status message describing the status of the file being saved.
   def save_queue_as_csv_to(path)
     path = File.expand_path(path)
     print "Attempting to save the current queue to #{path}\n"
@@ -148,7 +195,7 @@ class EventReporter
   end
 
 
-  # Sort a queue and format it for print
+  # Sorts a queue and format it for print
   # @see Helpers#queue_print_format
   # @param [Symbol] attr The attribute to sort by the queue before printing it.
   # @return [String] The output ready to be printed to screen.
@@ -162,7 +209,11 @@ class EventReporter
 
 end
 
+# Module designed to provide some indications to the end user.
 module CLIHelp
+
+  # Lists the commands returned as a Hash, the keys being the commands and the values being the descriptions.
+  # @return [Hash]
   def self.commands
     @commands ||= { 
   'load <filename>' => 'Erase any loaded data and parse the specified file. If no filename is given, default to event_attendees.csv.',
@@ -184,6 +235,9 @@ module CLIHelp
   'reload' => "Reload this program"}
   end
 
+  # Returns help for a given command or for a command close to what is passed.
+  # @param [String] cmd The command we want to print the help for.
+  # @return [String] The appropriate help information.
   def self.for(cmd)
     return full_help if cmd.nil? || cmd == 'help' || cmd.empty?
     # find the matching command by removing the user input arguments
@@ -198,52 +252,75 @@ module CLIHelp
     end
   end
 
+  # Lists all the available commands.
+  # @return [String]
   def self.full_help
     commands.cli_print_format
   end
 end
 
-module CLICommands
+# Wrapper module used to interface the command line interface with the "backend"/reporter.
+module CLIController
 
   @reporter = nil
-  VALID_QUEUE_ARGS = %W{count clear print}
 
-  def self.load(filename=nil)
+  # Creates a new instance of `EventReporter` loading the optionally passed path.
+  # @param [String] path The path to the csv file to load.
+  # @return [String] Status message describing potential issues or if the reporter is ready.
+  def self.load(path=nil)
     begin
-      @reporter = EventReporter.new(filename)
+      @reporter = EventReporter.new(path)
     rescue Errno::ENOENT
-      Helpers.red("There was a problem opening #{filename}.\n")
+      Helpers.red("There was a problem opening #{path}.\n")
     else
       "Event reporter ready to be searched.\n"
     end
   end
 
-  # @param [String] arg Can be count, clear or print, see CLIHelp for more details 
+  # Sends a command to the reporter's queue if the reporter was set.
+  # An error message is returned if the reporter wasn't set.
+  #
+  # @param [String] arg Can be count, clear or print, see CLIHelp for more details
   #   about each command
+  # @param [NilClass, Array] extra Extra arguments sent with the queue command.
   def self.queue(arg, *extra)
-    if_reporter do
+    with_reporter_set do
       @reporter.queue(arg, extra)
     end
   end
 
+  # Looks for matching records in the reporter's memory and add the results to the queue.
+  # Note that staring a new research clears the existing queue.
+  # @see EventReporter#find_all
+  # @param [String] attribute The attribute to search for.
+  # @param [String] criteria The value we expect to match during the search.
+  # @return [String] An error message or a search result info.
   def self.find(attribute=nil, criteria=nil)
-    if_reporter do
-      return Helpers.red("maformed request, you need to call `find <attribute> <criteria>`\n") if attribute.nil? || criteria.nil?
-      @reporter.find_all(attribute, criteria)
+    with_reporter_set do
+      if attribute.nil? || criteria.nil?
+        Helpers.red("maformed request, you need to call `find <attribute> <criteria>`\n")
+      else
+        @reporter.find_all(attribute, criteria)
+      end
     end
   end
 
+  # Exists the current application and print a goodbye message.
   def self.exit
     print Helpers.bold("Ciao!\n")
     Kernel.exit
   end
 
+  # Reloads this code to more easily test/develop without quitting the app.
   def self.reload
     print Helpers.red("Reloading, warnings about already initialized constants are exected.\n")
     Kernel.load(File.expand_path(__FILE__))
   end
 
-  def self.if_reporter
+  # Method taking a block which gets yield if a reporter was set.
+  # If the reporter wasn't set, an error message is returned.
+  # @return [String] The output of the passed block or an error message.
+  def self.with_reporter_set
     if @reporter
       yield if block_given?
     else
@@ -256,15 +333,15 @@ end
 # Print a nice message before exiting
 trap("INT") { print "Thanks for visiting, come again!\n"; exit }
 
-
+#################  Loop used to capture the user's input  ####################
 print Helpers.bold("Welcome to EventReporter, what you would like to do today?\n\
 Type `help` for more info on the available commands.\n")
 while command = gets.chomp
   args = command.split(/\s+/)
   cmd = args[0]
-  if !cmd.empty? && CLICommands.respond_to?(cmd)
+  if !cmd.empty? && CLIController.respond_to?(cmd)
     print Helpers.green(" > #{command}\n")
-    print CLICommands.send(cmd, *args[1..-1])
+    print CLIController.send(cmd, *args[1..-1])
   else
     print Helpers.green(" > #{command}\n")
     print CLIHelp.for(command.gsub(/^help\s+/, ''))

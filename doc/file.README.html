@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.7.5
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" media="screen" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  relpath = '';
+  if (relpath != '') relpath += '/';
+</script>
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8">
+      if (window.top.frames.main) document.body.className = 'frames';
+    </script>
+    
+    <div id="header">
+      <div id="menu">
+  
+    <a href="_index.html" title="Index">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+  
+  <div class="noframes"><span class="title">(</span><a href="." target="_top">no frames</a><span class="title">)</span></div>
+</div>
+
+      <div id="search">
+  
+    <a id="class_list_link" href="#">Class List</a>
+  
+    <a id="method_list_link" href="#">Method List</a>
+  
+    <a id="file_list_link" href="#">File List</a>
+  
+</div>
+      <div class="clear"></div>
+    </div>
+    
+    <iframe id="search_frame"></iframe>
+    
+    <div id="content"><div id='filecontents'><h1>Hungry Academy Exercise</h1>
+
+<p><a href="http://tutorials.jumpstartlab.com/projects/event_reporter.html">http://tutorials.jumpstartlab.com/projects/event_reporter.html</a></p>
+
+<p>As a user launching start the program I&#39;m provided a command prompt where I can issue one of several commands, described below. After each command completes, the prompt returns, waiting for another instruction.</p>
+
+<p>The program has a concept called the &quot;queue&quot;. The queue holds the stored results from a previous search. As a user, I issue a search command to find records, then later issue another command to do something with those results. The queue is not cleared unless the user runs <code>queue clear</code> or a new <code>find</code>.</p>
+
+<h4>Command Prompt Instructions</h4>
+
+<h5><code>load &lt;filename&gt;</code></h5>
+
+<p>Erase any loaded data and parse the specified file. If no filename is given, default to <code>event_attendees.csv</code>.</p>
+
+<h5><code>help</code></h5>
+
+<p>Output a listing of the available individual commands</p>
+
+<h5><code>help &lt;command&gt;</code></h5>
+
+<p>Output a description of how to use the specific command. For example:</p>
+
+<pre class="code ruby"><code><span class='id identifier rubyid_help'>help</span> <span class='id identifier rubyid_queue'>queue</span> <span class='id identifier rubyid_clear'>clear</span>
+<span class='id identifier rubyid_help'>help</span> <span class='id identifier rubyid_find'>find</span>
+</code></pre>
+
+<h5><code>queue count</code></h5>
+
+<p>Output how many records are in the current queue</p>
+
+<h5><code>queue clear</code></h5>
+
+<p>Empty the queue</p>
+
+<h5><code>queue print</code></h5>
+
+<p>Print out a tab-delimited data table with a header row following this format:</p>
+
+<pre class="code ruby"><code><span class='const'>LAST</span> <span class='const'>NAME</span>  <span class='const'>FIRST</span> <span class='const'>NAME</span>  <span class='const'>EMAIL</span>  <span class='const'>ZIPCODE</span>  <span class='const'>CITY</span>  <span class='const'>STATE</span>  <span class='const'>ADDRESS</span>
+</code></pre>
+
+<h5><code>queue print by &lt;attribute&gt;</code></h5>
+
+<p>Print the data table sorted by the specified <code>attribute</code> like <code>zipcode</code>.</p>
+
+<h5><code>queue save to &lt;filename.csv&gt;</code></h5>
+
+<p>Export the current queue to the specified filename as a CSV</p>
+
+<h5><code>find &lt;attribute&gt; &lt;criteria&gt;</code></h5>
+
+<p>Load the queue with all records matching the criteria for the given attribute. Example usages:</p>
+
+<ul>
+<li><code>find zipcode 20011</code></li>
+<li><code>find last_name Johnson</code></li>
+<li><code>find state VA</code></li>
+</ul>
+</div></div>
+    
+    <div id="footer">
+  Generated on Fri Mar  9 20:39:15 2012 by 
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.7.5 (ruby-1.9.3).
+</div>
+
+  </body>
+</html>

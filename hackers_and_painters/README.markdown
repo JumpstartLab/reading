@@ -73,6 +73,19 @@ git push origin master
 4. Add them to the document for your chapter
 5. Push and submit a pull request
 
+#### Review Assignments
+
+* Chapter 1 & 2: Jacqueline Chenault, Conan Rimmer, Mark Tabler
+* Chapter 3 & 4: Tom Kiefhaber, Christopher Maddox
+* Chapter 5: Elise Worthy, Mary Cutrali
+* Chapter 6: Andrew Thal, Nisarg Shah
+* Chapter 7 & 8: Andrew Glass, Edward Weng, Melanie Gilman
+* Chapter 9: Chris Anderson, Michael Verdi
+* Chapter 10 & 11: Horace Williams, Jan Koszewski, Charles Strahan
+* Chapter 12: Travis Valentine, Darrel Rivera
+* Chapter 13: Austen Ito, Michael Chlipala
+* Chapter 14 & 15: Daniel Kaufman, Jonan Scheffler, Mike Silvis
+
 #### Collate & Distill
 
 The goal is *not* to create an exhaustive list of everything written by every reader. The goal is to create a comprehensive set of the best ideas, sharpest insights, and clearest explanations. The final document should probably be 3x as long as any individual response set, but it should not be enormous. 
@@ -86,17 +99,3 @@ If it feels necessary, cite responses using the `@githubusername` style, like @j
 As they're submitted and time allows, read and discuss the summaries.
 
 If you find some quotes and insights that you really respect, consider decorating some of our glass surfaces with them.
-
-
-## Review Assignments
-
-Chapter 1 & 2: Jacqueline Chenault, Conan Rimmer, Mark Tabler
-Chapter 3 & 4: Tom Kiefhaber, Christopher Maddox
-Chapter 5: Elise Worthy, Mary Cutrali
-Chapter 6: Andrew Thal, Nisarg Shah
-Chapter 7 & 8: Andrew Glass, Edward Weng, Melanie Gilman
-Chapter 9: Chris Anderson, Michael Verdi
-Chapter 10 & 11: Horace Williams, Jan Koszewski, Charles Strahan
-Chapter 12: Travis Valentine, Darrel Rivera
-Chapter 13: Austen Ito, Michael Chlipala
-Chapter 14 & 15: Daniel Kaufman, Jonan Scheffler, Mike Silvis

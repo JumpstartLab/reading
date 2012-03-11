@@ -11,7 +11,7 @@
 * I was surprised at the idea that schools are merely a place for parents to drop their kids to stay busy while they do work. I would think that the system would either be smarter than that or people would remove themselves from it in larger percentages if that is the case. Unless everyone is oblivious to this "truth".
 * I had a very different school experience. Popularity was an issue, but not as brutal as described by the author.
 
-> The inhabitants of all those worlds are trapped in little bubbles where nothing they do can have more than a local effect. Naturally these societies degenerate into savagery. They have no function for their form to follow.
+> The inhabitants of all those worlds are trapped in little bubbles where nothing they do can have more than a local effect. Naturally these societies degenerate into savagery. They have no function for their form to follow. &emdash;_Paul Graham_
 
 ## Questions Unanswered
 

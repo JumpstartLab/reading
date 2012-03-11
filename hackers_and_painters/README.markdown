@@ -14,11 +14,11 @@ If you've read it before, please read it again. Have it completed by the meeting
 
 Create a simple markdown text file and, after each chapter of reading, record:
 
-1) Summarize the chapter ( 1+ bullets )
-2) What was one idea the surprised or stood out to you? Why? ( 2-4 sentences )
-3) What was a question that you saw as unanswered? ( 1-2 sentences )
-4) Did you have any objections or disagreements? ( 1-2 sentences)
-5) What were your key take aways or things you want to remember? ( 1+ bullets )
+1. Summarize the chapter ( 1+ bullets )
+2. What was one idea the surprised or stood out to you? Why? ( 2-4 sentences )
+3. What was a question that you saw as unanswered? ( 1-2 sentences )
+4. Did you have any objections or disagreements? ( 1-2 sentences)
+5. What were your key take aways or things you want to remember? ( 1+ bullets )
 
 We'll use these notes in the reading group.
 
@@ -31,7 +31,7 @@ Individuals notes will be collected into one master document available the week 
 ### Phase 1 - Individual
 
 1. Fork this repository
-2. Add your notes to this folder under a filename `lastname_firstname.markdown`
+2. Add your notes as `hackers_and_painters/individual_notes/lastname_firstname.markdown`
 3. Push to Github
 4. Submit a pull request
 
@@ -42,16 +42,16 @@ Here's how you might accomplish the above using GitHub and git:
 1. Start at https://github.com/JumpstartLab/reading/ and click the `Fork` button in the upper right
 2. Clone your repository down to your machine and create your notes file:
    ```
-   git clone git://github.com/your_github_username/reading.git
-   cd reading/hackers_and_painters
-   e mylastname_myfirstname.markdown
+git clone git://github.com/your_github_username/reading.git
+cd reading/hackers_and_painters/individual_notes
+e mylastname_myfirstname.markdown
    ```
 3. Add the text of your notes to the editor window and save it.
 4. Push it up to GitHub:
    ```
-   git add .
-   git commit -m "Adding my notes for Hackers and Painters"
-   git push origin master
+git add .
+git commit -m "Adding my notes for Hackers and Painters"
+git push origin master
    ```
 5. Go to your repository on GitHub and click the `Pull Request` button in the upper right
 6. Give your request a title "Hackers and Painters Notes by <Your Name>" and click `Send Pull Request`

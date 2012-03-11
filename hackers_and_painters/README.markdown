@@ -1,16 +1,7 @@
-## Introduction
-
-On Monday, 3/12 we'll have our first reading group. In general, groups
-will be working on different texts of your choosing. But for this
-first run, we'd like everyone reading the same thing.
-
-Please purchase and read "Hackers and Painters" by Paul Graham from
-http://amzn.to/wgWpXR . There are both paper and Kindle version
-available for about $10.
-
-If you've read it before, please read it again. Have it completed by the meeting
-
 ## Assignment
+
+For Reading Group 3/12 purchase and read "Hackers and Painters" by Paul Graham from
+http://amzn.to/wgWpXR
 
 Create a simple markdown text file and, after each chapter of reading, record:
 
@@ -21,10 +12,6 @@ Create a simple markdown text file and, after each chapter of reading, record:
 5. What were your key take aways or things you want to remember? ( 1+ bullets )
 
 We'll use these notes in the reading group.
-
-## Repository Notes
-
-Individuals notes will be collected into one master document available the week of 3/11
 
 ## Review Protocol
 

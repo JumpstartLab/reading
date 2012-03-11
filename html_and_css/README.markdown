@@ -8,16 +8,9 @@ For this book we will:
 
 ### Part 1 - Creating Exercises
 
-Each of you will have one segment of the book (commonly a chapter, but
-the largest chapters will be split two ways) for which you write the
-exercises. We'll share these exercises and all complete them as we
-read. You'll be provided a reference example for one chapter and
-guidelines about timing, content, and difficulty.
+Each chapter has one or two people assigned to writing exercises. We'll share these exercises and all complete them as we read.
 
-The chapters are not order dependent, so the expectation is that
-you'll read/work through the segment you're assigned, create your
-exercises, then read and work through all the other chapters as those
-exercises become available.
+The chapters are not order dependent, so the expectation is that you'll read/work through the segment you're assigned, create your exercises, then read and work through all the other chapters as those exercises become available.
 
 Details on creating the exercises are below. Exercises are due by 11:59pm on 3/16.
 
@@ -53,10 +46,9 @@ The longest chapters have two people assigned, parcel it up however you see fit.
 
 ### Designing Exercises
 
-For your chapter, design an exercise which can be completed in 15 to 20 minutes. Here's how you can do that:
-
 #### Logistics
 
+* For your chapter, design a set of exercises which can be completed in 15 to 20 minutes
 * Write your exercise instructions in `html_and_css/exercises/chapterXX.markdown`
 * Store any resources in `html_and_css/resources/chapterXX/`
 * If you're able to reuse any resources from other chapters, store them in `html_and_css/resources/common/`
@@ -65,16 +57,18 @@ For your chapter, design an exercise which can be completed in 15 to 20 minutes.
 
 1. Determine the most important concepts and details from your chapter. What are the things that you MUST know about this subject? The nuances and "tricks" aren't our focus. What are the big ideas, the essentials?
 2. How can those best be practiced? Does it mean adding style to an existing layout? Reformatting a block of plain text into valid markup?
-3. What does the worker need to being? We don't want to start from scratch 19 times. If you're focused on the HTML box model in CSS, create a simple HTML document they can start with.
+3. What does the worker need to begin? We don't want to start from scratch 19 times. If you're focused on the HTML box model in CSS, create a simple HTML document they can start with. If they're practicing structuring HTML, give them a chunk of text, like the Bill of Rights, to work with.
 4. Write instructions that are clear but still require some brain function. You're not programming a computer, you're instructing a human who can take abstract ideas and convert them into critical steps. Don't re-explain details that are in the text, just reference where they can find help in the book.
-4. How can outcomes be measured or validated?
+5. Consider using a "choose your own adventure" style like our projects. Define "Base Expectations" that need to be completed, then add optional "Extensions" to push the challenge further.
+6. How can outcomes be measured or validated? How can they know it worked properly? Consider providing screenshots for comparison.
+7. Create a reference implementation in `html_and_css/exercise_solutions/chapterXX`
 
 ## Review Protocol
 
 ### Phase 1 - Individual
 
 1. Fork this repository
-2. Add your completed exercises as `html_and_css/individual_exercises/githubusername/chapter01/index.html` for each chapter. Include in the chapter folder any files you need/create including images, CSS, HTML, and JavaScript.
+2. Add your completed exercises as `html_and_css/exercises/githubusername/chapter01/index.html` for each chapter. Instead of copying resources, try referencing them directly from the resources folder.
 3. Push to Github
 4. Submit a pull request
 

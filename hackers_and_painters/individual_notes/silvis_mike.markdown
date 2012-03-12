@@ -1,14 +1,9 @@
 # Why Nerds are Unpopular
-## Summary 
-	This chapter is about how Paul feels that the reason nerds are unpopular through grade school is because they don't try to be popular. They are more focused on their intellectual ability then what other people think about them.
-## What Stood Out
-	Paul's reflection on grade school. It surprised me how stereotypical Paul's school was. Maybe my school was different but we didn't have different ranks of popularity across tables with jocks and cheerleaders. 
-## Questions Unanswered
-	If Paul went back to grade school would he change anything about what he did and would he try to make himself popular?
-## OBjections
-	This chapter almost sounded whiney and that Paul was trying to justify himself in high school. 
-## Takeaways
-	The key take away from the chapter is that you can only do so many things in a day. You have to choose what matters most to you and from there focus on that.
+	1.	This chapter is about how Paul feels that the reason nerds are unpopular through grade school is because they don't try to be popular. They are more focused on their intellectual ability then what other people think about them.
+	2.	Paul's reflection on grade school. It surprised me how stereotypical Paul's school was. Maybe my school was different but we didn't have different ranks of popularity across tables with jocks and cheerleaders. 
+	3.	If Paul went back to grade school would he change anything about what he did and would he try to make himself popular?
+	4.	This chapter almost sounded whiney and that Paul was trying to justify himself in high school. 
+	5.	The key take away from the chapter is that you can only do so many things in a day. You have to choose what matters most to you and from there focus on that.
 
 # Hackers and Painters
 	1.	This chapter discusses the similarities between hackers and painters. Paul theorizes that hackers or programmers are more like painters then mathematical people.
@@ -87,3 +82,22 @@
 	4.	I agree. Picking your tool sets before starting a project is extremely important in the rate of success your project is going to have.
 	5.	Look at job descriptions for your competitors and you can slowly figure out where they are taking the company next.
 # Revenge of the Nerds
+	1.	Use the most common language that will help get your product built and your users will love as fast as possible.
+	2.	How your boss is going to tell you to program in language x when really that is just because it is the most popular and what he knows of.
+	3.	How do you realistically determine what language you should program in with all of the varieties?
+	4.	His statement about how much "shorter" ruby and Lisp are versus other languages is a little skewed.. It tended to look like he tried to make his examples shorter and more concrete then what it actually should have been.
+	5.	Choose your language you are going to use before starting the application because the given language is the best at doing what you are trying to accomplish.
+
+# The Dream Language
+	1.	Libraries, efficiency, & time all add together to allow a programmer to focus on solely building the application they want to build and not worrying about the language underneath. They should spend no time programming things that could be used for another application and only what is specific to their current application.
+	2.	It makes sense to me that I shouldn't have to constantly rebuild the wheel. If you like at Rails a lot of things like authentication, forms, and the most basic parts of the language are either pre-written or have been done before with easy to find and use gems.
+	3.	What is the best way to choose what language is complete?
+	4.	I agree completely, and this is why I have fallen in love with Ruby. The pure amount of gems is astonishing and can help you achieve anything in seconds.
+	5.	"A programming language does need a good implementation of course, and this must be free. Companies will pay but hackers will not, and this is who you need to attract.
+
+# Design and Research
+	1.	Build rapid applications as fast as possible with the user in mind. Don't worry about if it is the prettiest or best code in round one just get something out the door.
+	2.	The thing that stood out to me the most was the fact that Paul believe Hail marry passes do not work in building software applications. I agree with him in this and have actually gone through a similar circumstance while building an application of my own.
+	3.	What is the appropriate amount of time to build an application before releasing it to the public?
+	4.	I agree with the concept that always building and having a working prototype is crucial to staying motivated with the application.
+	5.	Build fast and don't ever stop building.

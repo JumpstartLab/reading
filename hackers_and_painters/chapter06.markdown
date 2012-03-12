@@ -174,3 +174,83 @@ Is a boss always a proxy for the customers? In a big business, bosses do control
 To gain wealth, put yourself in a position that has both measurement and leverage.
 Seek out the harder problems for competitive advantage.
 Numbers of users are a proxy for software quality.
+
+Chris A
+## Summary
+Discusses how to make "wealth" not money, where wealth is the stuff we want and money is just a side effect. He also proposes that the "big pie" (that all the wealth in the world is fixed) is incorrect and that people can create wealth that just makes the pie bigger.
+## Idea that surprised me
+That he's a huge libertarian. I've always been interested that the majority of Silicon Valley supports Democrats yet often have very conservative ideas about business.
+## Unanswered questions
+Whether getting bought is a good thing for a startup. He's so against the slowness of big business, yet recommends that start ups be bought by big companies.
+## Objections/disagreements
+I don't believe startups are the only way of working faster. And, working faster isn't always the best thing. MySpace emerged before Facebook, yet Facebook was a better product. It's much more important to focus on quality rather than just being the first out of the gate. Also, he implies that wealth is the only reason people want to develop new technology, which is quite pessimistic.
+## Key takeaways
+Efficiency is more important than speed, and efficiency can occur in both small and big companies.
+
+JQ
+
+## Summary
+
+* Wealth is having the things you want and need - not necessarily money.
+* Startups are earning all the lifetime wealth (and experiencing the lifetime stress) in a few years instead of over an entire career.
+* Created wealth does not detract from the wealth of other people.
+
+## What Stood Out
+
+* Hackers are craftsmen who create wealth because their hands are writing the code.
+* You as a hacker (or employee) create wealth for the company. Most companies are not set up to take advantage of this fact.
+* Measure the value you bring, whenever possible.
+* If you're in a job that feels safe, you're not going to get rich. (make strong moves?!?)
+* Want to make money? Get past the early start-up phase, be profitable, and get customers.
+
+## Questions Unanswered
+
+* Startups are a gamble. What about the ones that don't work - what's the loss in value because you spent 4 years stressed and overworked with 16 hour days and only recieved wrinkles and ulcers as your reward?
+
+## Objections
+
+## Takeaways
+
+Jan
+## Summary
+
+* the creation of wealth is inherently the creation of something that other people want, and that pursuit of wealth itself drives innovation and technological advancement
+
+## What Stood Out
+> "the answer may be that Europeans rode on the crest of a powerful new idea: allowing those who had a lot of money to keep it" - _Paul Graham_
+
+> "for potential acquirers, the most powerful motivator is the prospect that one of their competitors will buy you. the second biggest worry is that if they don't buy you now, you'll continue to grow rapidly and will cost more to acquire later, or even become a competitor" - _Paul Graham_
+
+> "if you can develop technology that's simply too hard for competitors to duplicate, you don't need to rely on other defenses" - _Paul Graham_
+
+> "to get rich you need to get yourself in a situation with two things: measurement and leverage...if you're in a job that feels safe, you're not going to get rich because if there is no danger there is almost certainly no leverage" - _Paul Graham_
+
+## Questions Unanswered
+
+* none
+
+## Objections
+
+* this all seems to be pushing a fairly libertarian agenda, or at the least encouraging the pursuit of commercial ends that do not satisfy a need or belief in a greater "public" good.  not that there's much wrong with that for a book or perspective geared towards the idea of writing commercial software.  just observing.
+
+## Takeaways
+
+* wealth is simply what people want
+* in order to be put in a position where you control the amount of wealth you want to attain or would like to create, you need leverage and measurement
+
+Mark
+		### Summary
+    There is a difference between earning money and making wealth; you want to do the latter.
+
+    ### Surprising Idea
+    That given enough multiplicative modifiers, you could be (for example) 36 times more productive than you're expected to be in a random corporate job. I'm not sure that I could create the same value in one hour that I did in a workweek at any of my previous jobs.
+
+    ### Unanswered
+    What on Earth happened with the licensing deal for DOS that made Gates a billionaire? That knowledge is not universal enough knowledge to have gone without a word of explanation.
+
+    ### Objection
+    I'm not convinced about the absolute separation of wealth and money. It seems that if I'm in an isolated group of 100 people, and 20 of them want bicycles but only 15 can afford them, and I have the capacity to make 20 bicycles, then my ability to create wealth and my ability to earn money are two separate numbers. I just don't know how that scales to economies of national scale.
+
+    ### Key Takeaways
+    * In a small enough group, you can get paid for what you add to the team rather than for being a warm body.
+    * Startups are a way to take the value of your output and wager it in a fair-odds casino.

@@ -3,7 +3,7 @@
 ## Summary
 
 * In startup, you work extremely hard but for several years as opposed to not working very hard for the rest of your life.
-* Wealth =/= Money. Wealth is stuff we want like food, clothes, etc. Money is a way of moving wealth.
+* Wealth != Money. Wealth is stuff we want like food, clothes, etc. Money is a way of moving wealth.
 * There is no fixed amount of wealth, you can create wealth by making things that people want
 
 ## What Stood Out

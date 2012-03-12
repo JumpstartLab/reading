@@ -1,0 +1,257 @@
+1) Summarize the chapter ( 1+ bullets )
+2) What was one idea the surprised or stood out to you? Why? ( 2-4 sentences )
+3) What was a question that you saw as unanswered? ( 1-2 sentences )
+4) Did you have any objections or disagreements? ( 1-2 sentences)
+5) What were your key take aways or things you want to remember? ( 1+ bullets )
+
+# Chapter 1
+
++ Graham summarizes why junior high sucks. Before maturation, social contructs dominate and lead to viscous social climbing.
++ Nerds aren't good at this, or don't care enough to participate.
++ A common victim leads to social unity.
+
+I loved Graham's thoughts on why this happened.
+> The inhabitants of all those worlds are trapped in little bubbles where nothing they do can have more than a local effect. Naturally these societies degenerate into savagery. They have no function for their form to follow.
+
+The last line is crucial - without an express goal, people end up focusing too heavily on relative status. Wives of Wall Street's best and brightest are a fascinating example of this. Even with all the money and power in the world, they are reduced to paranoid savages. Another interesting point, that schools are essentially prisons, resonated heavily with me.
+
+How do we transition from a brutish middle school worlkd to focus on the things that matter? Also, does school have to be such a waste of time?
+
+Not really. I agree with pretty much everything he has to say.
+
++ The stupid parts of life are nasty, brutish, and (thankfully) short. Keep your head down and you'll be fine in the end.
++ Have a purpose in what you do. You'll be happier and not dissolve into mindless social squabbling.
+
+# Chapter 2
+
+Never underestimate the importance of intellectual diversity. Sure, hacnking and painting appear to be inreconsilably disparate endeavours, but at the core both are fundamentally paths trodden by those who do. 
+> I've found that the best sources of ideas are not the other fields that have the word "computer" in their names, but the other fields inhavited by makers.
+
+The problems whose solutions are profitable are the dirty ones. Database management isn't sexy, but Oracle solved boring (but important) problems better than anyone else.
+> If you want to make money, you tend to be forced to work on problems that are too nasty for anyone to solve for free.
+
+How can we balance beauty with performance? Obiously I want to write beautiful code, but, especially in startup hustling to push out a product before the runway is gone, the balance naturally skews towards sacrificing one for the other.
+
++ "Big companies win by sucking less than other big companies."
++ Divide work into modules and apply ownership.
++ Programs should be written for people to read, and only incidentally for machines to execute"
+
+# Chapter 3
+
++ The point is to do what you want to do, not to say what you want to say.
++ A litmus test for something you can't say: 
+> In any period, it should be easy to figure out what such labels are, simply by looking at what people call ideas they disagree with other than untrue.
+
+People who are willing to face shocking ideas are just plain more baller. I think this is pretty common and relates back to Chapter 1. Those who are willing to confront stupid ideas, even commonly accepted ones, generally don't care about saying so. Rules of conformity simply do not apply.
+
+He had a good opportunity to throw out examples and apply his own method to controversial ideas, but backed away. Kind of hard to take him seriously id he won't face the ideas himself.
+
+See above ^.
+
++ Don't mislead your kids about the state of the world. Seriously, they can take it, and will be far better off going forward. They are only innocent if we raise them that way, but sooner or later they have to face the facts.
++ Pledge yourself and everyone around you. Don't let them bullshit themselves.
++ Never stop questioning everything. Seriously, just do it.
+
+# Chapter 4
+
+Hacking can be ugly or it can be wildly imaginative. Breaking convention in and of itself isn't the goal. The goal is to disrupt idustries by tackling hard problems with innovative solutions. America is particularly suited for this type of progress, as we were founded on rebellion. We should try as hard as possible to keep that spirit.
+
+There is an inspiring self-confidence inheirent in rebellion, in standing up and pushing back.
+
+Working in a team involves trade-offs. I can fight the incosistencies in my coworkers' lives and they could doubtlessly point out many of the same in me, but where does that get you? Are we a better team because of it? Probably not. I think measured resistence to hypocracy is the better choice. Choose your battles, dog.
+
+See above ^.
+
++ The average opinion is just that...average. Find people with different ideas and think about why they are true or false - not whether you agree or not. That will follow.
+
+# Chapter 5
+
++ Make decisions that make sense for users. The technology is being built as solution for them, so make every decision for the good of the users.
++ Web applicaitons don't have set releases, they are constantly moving forward. Bugs fixes are released as soon as they're solved, and everyone is happier.
++ "When you have competitors, 'you can' means 'you must'"
++ Feedback is nearly instantaneous with web-applications - use it.
+
+Hardware is far more important than I realizes. Having control of the machines on which your processes run enables near-infinite freedom. I had never seen servers as more than their specs, but I can now understand why large companies move towards their own solutions over third-party farms.
+
+There's a culture of 'more expensive is better' in the corporate IT world. But many of the products aimed at enterprise suck. Sure there is the cost of selling expensive things, but how do you get around that to optomize large companies? Or maybe companies should just not get that large?
+
+Most of his predictions where incredible adept. One about Microsoft, in particular, was off. He sees Microsoft as moving into a hybrid desktop-server market and that clearly hasn't evolved. Programming hasn't quite become a mainstream hobby, and until it does no one in Redmond will back such a project.
+
++ The future of development is in web applications - what we now refer to as "The Cloud". Who is successful in this arena correlates to taking much of the proprietary shenanigans which made Microsoft and Oracle giants, and embracing the free flow of information.
++ Take control of as much of the user's experience and the back-end as possible. Control your servers, so that you can tailor them precisely to your needs, and you'll be a better company.
++ Make something clean and simple that solves a problem. Push out v1.0 and test, test, test. Gather data and streamline bottlenecks.
+
+# Chapter 6
+
++ Wealth is not a zero-sum. Creation of new wealth does not imply destruction of other wealth
++ Wealth != money.
++ Wealth, it isn't the same thing as money.
++ For people to work hard, there need to be sufficient incentive. Having a correlation between working and reward means a lot.
+
+The success of startups has less to do with hard work than I thought. There is the idea in the Valley that you work you ass of and then are successful, but that's not necessarily the case. Forming a small team of brilliant people, finding the right advisors, soliving a problem people need solved, and doing it in a way that is natural to users is all important.
+
+Can we streamline good ideas and try to increase the rate of success? Think of all the wasted 'wealth' that could have been created if the effort of unsuccessful startups were focused into things which had a chance to succeed. Shit, I just described Y Combinator. Well played.
+
+I don't know that every job needs to be performance based. There are definitely places where 'just good enough' is fine. I don't need someone at the Safeway deli to be paid based on performance for slicing my roast beef. It would be cool, and he would make more money, but I don't know that we'd see a huge benefit.
+
++ Solving problems creates wealth, and everyone benefits from that.
++ Put yourself in a position which allows for measurement and leverage.
++ Small groups of highly performing people will outdo the 'avaerage' of a massive corporation. Stay small, stay hungry.
+
+# Chapter 7
+
++ The gap between rich and poor is seen as bad, but Graham sees a healthy economy.
++ Sperating those who create wealth with those who make a lot of money is becoming harder and harder -> that's a good thing.
++ Those who create *need* to reap the benenefits, or they will stop creating.
+
+His definition of the middle class, and how almost everyone in industrialized nations is in a range within the middle class. Even our 'upper class' are just people making things that worked harder or thought of better ideas.
+
+This was a really short chapter with a well defined purpose. Hard for him to leave anything out. Drop back 10 and punt.
+
+Seriously I just kind of agree with everything he said. It makes so much sense to reward those who actually make things and get away from childish perceptions of wealth. The implications of a 'just distribution' are that creating wealth is unjust.
+
++ Be a libertarian.
++ Equal distribution is the sign of a country in a bad place.
++ We need to be more realistic in our perception of wealth. Creation, not equality, is what moves us forward.
+
+# Chapter 8
+
++ Spam continues because it is a profitable business, not because they want to piss us off. 
++ Bayesian filters are far and away the most effective at figuring out what is spam. Like Cryptology analyzing letter distribution, spammers are selling a product which by nature has to look sketcy to succeed. But that sketchiness is also its downfall
++ Statistical analysis evolves with the competition in a way that "I think this will work" doesn't. Statistical algorithms need little updating to be continuously successful.
+
+I had always thought of spam as keyword filtering but it was a mystery as to how it was calculate. As usual, this makes perfect sense.
+
+How are users going to respond when you know what a 'legitimate' email looks like? Yes you can now filter out the bad, but you'll also know how to fake the good to sell your own products.
+
+His approach makes a lot of sense. From auser privacy standpoint, I could see where people disagree, but generally I don't think we should be worried about algorithms shifting through our stuff.
+
++ Data over opinion.
++ Write code that adopts automatically.
+
+# Chapter 9
+
++ Good design follows many fundamental patterns, the largest of which are perserverence and environment.
++ Design is not inheirited, and there is much to be learned from 'those of old'
++ Originality comes naturally when you master something, but forcing it will be aparant in your work
+
+Strangeness as beauty stood out to me. There is clearly a correlation between the two, as well as between beauty and symmetry. I also found the bit about nature's beauty resulting from million of years of testing a fascinating take on natural selection.
+
+Why is there such a commonality between beautiful designs? If we combine two beautiful things, does the resulting complexity make the whole worse than the sum of the parts?
+
+There are definitely different styles of beauty which appeal to different people. A lot of people think the iPad is beautiful, but there are some people that don't agree. Can we really, unequivocally, say that they are wrong? I'm all for doing away with subjectivity, but he seems to be leading us towards the very conformity eschewed in previous chapters.
+
++ Good design is more a function of time and effort than of nature. To have good taste takes practice, not genes.
++ Building a strong environment fosters great works. Individual efforts can be successful, but it's more likely in teams.
+
+# Chapter 10
+
++ Languages have tradeoffs between flexibility and speed
++ There is a degree of personal preference between languages, but some are fundementally better at particular problems.
++ We are in the hayday of language design
+
+I'm so happy that I don't have to write bytecode or assembly. So many acheivements are made possible by high level languages.
+
+How do you distinguish which language is good at a particular problem? What's the balance between solving disparate problems with separate languages and having programmers who need to balance all of those languages.
+
+Graham seems more lenient with older languages and their usefulness now in solving problems. He doesn't give much opinion on which ones stand out to him, except that Lisp is the best.
+
++ High level languages offer greater malliability than low level languages.
++ Language choice should be driven by the problem, not the preferences of the programmer.
++ Languages should err towards giving the programmer options. He can use a dynamically typed language in strict mode, but give them the option of dynamic typing.
+
+# Chapter 11
+
++ Lisp will rule all the languages in 100 years. I'm just going to speculate and look like a fool 1 century from now.
++ This chapter was aweful.
+
+I had mad respect for Paul until now. He based everything prior on truth value, but then gets knocked off course by whimsical ideas about the future.
+
+If we can predict so many things, why not finesse the evoluionary tree towards what it will look like and save us all the effort?
+
+Looking at what languages were like 50 years ago, and from that predicting that we can guess what they'll be like in 100 years is silly. Could the designers of Fortran have written Ruby in 1960? Nope. Don't say that you can extend that exponential change to two times that time period and pretend like you know what'll happen.
+
++ Don't make predictions outside of reasonable ranges, you'll look silly.
+
+# Chapter 12
+
++ If you don't write in Lisp, you don't understand what you're doing. "I used to be where you were..."
++ The language that you chose for a project determines the limits of the problems you can solve.
++ Choose the most powerful language you can.
+
+Many language feautres which seem so new now (closures, macros) were implemented a long time ago. I wonder why it has taken so long to implement in other languages, though I guess complexity would probably be the answer.
+
+Why aren't more programmers using Lisp? He wasn't very clear on that, though it seems that it can do everything of every other language, plus a lot more.
+
+When creating ViaWeb, he credits Lisp for the ability to stay two (or ten) steps ahead of the competition. Sure it may have kicked ass compared to everything else out there then, but with the rise of Ruby/Rails or Python/Django I'm not sure it would be such a wünder-language now.
+
++ The right language means everything.
++ Study your competitive advantage by examining what others are looking for in new hires. Only get worried if they seem as hungry.
++ Don't be afraid to copy good ideas.
+
+# Chapter 13
+
++ People who don't understand programming languages shouldn't make decisions about which to use.
++ Popularity is a good determination of what the 'average' programmer is doing. but not the most powerful programmer.
++ Lisp's power comes from the theory behind it. It was feature complete, and just had to become fast.
+
+It is amazing the high level structure of Lisp and how it can simplify the actions of lower level languages. Graham also stressed that if you're repeating patterns, you haven't abstracted enough. I think that's true and will try to abstract more in the future.
+
+Has language evolution ended with Lisp? Yes it had implementation details, but feature wise it doesn't seem to have advanced since 1958. Since Ruby has pretty much caught up, where do we go from here?
+
+Alright, you sold me on Lisp. It is pretty baller.
+
++ Make the right decision, not the popular one.
++ Pick languages for the domain of the problem.
+
+# Chapter 14
+
++ Hackers are key to the adoption of any technology - not necessarily programmers but superusers that test frequently.
++ Starting small and growing organically far outweighs 'big-bang' style VC funded growth.
++ Keeping things open and manipulatable ensures growth (or at the very least promotes it)
+
+At this point, all of the pieces are coming together. A 'Dream Language' must emulate those who are using it, and the languages (or products) which limit their users, limit their own success.
+
+What is this language?? Oh what could it be... I guess a lingering question would be on the future of language design. Whould he fund a start-up based around building a language and its libraries?
+
+Not much to disagree with here.
+
++ Remember that anything you make should reflect those who use it. Every successful enterprise has embodied this maxim.
++ Balance the worry of failure with the hope of possibility.
+
+# Chapter 15
+
++ Design for the users. Best yet, be a user and design for yourself.
++ Stress adaptability by allowing someone to prototype and release in the same language/framework.
+
+I kind of saw this coming, so it was less shock than affimation. One point that stood out was the piece about Jane Austen's novels, which were so timeless because she meant them to be read outloud. This let the listeners, or the readers if one were alone, to conjure up the images themselves. The language had to conform to that level of abstraction.
+
+No questions, I just want to go out and do it! I really want to know what comes next, or how his feelings have evolved.
+
+Charlie Sheen winning.
+
++ Test things gradually on the people who will use them, and you should make sure that you are one of those people.
++ Don't think of your users as idiots, or you'll design shitty products for idiots. Pride in your work implies that it has some meaning. Act like it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

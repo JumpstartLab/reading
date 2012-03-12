@@ -254,3 +254,66 @@ Mark
     ### Key Takeaways
     * In a small enough group, you can get paid for what you add to the team rather than for being a warm body.
     * Startups are a way to take the value of your output and wager it in a fair-odds casino.
+
+Nisarg
+- In startup, you work extremely hard but for several years as opposed to not working very hard for the rest of your life.
+- Aim for millions of dollars - not billions. Making billions involves a lot of luck no matter how hard you work, it may still not be achievable without luck.
+- Wealth =/= Money. Wealth is stuff we want like food, clothes, etc. Money is a way of moving wealth.
+- There is no fixed amount of wealth - if you clean up your car + fix it up, you have more wealth but nothing else has changed.
+- Job is an institution similar to college but you get paid instead.
+- In software development, it is very hard to accurately judge how hard you work. Companies are not setup to reward a programmer’s hard work since there is no accurate measure of it.
+- The smaller the group = the easier it is to measure their performance. This causes people to do less work in large organizations since it can be easily overlooked.
+- Best way to protect your technology is to make it really difficult for your competitors to replicate.
+- Getting users for startup is incredibly important - everything else comes in second. Cater your application to what the user’s want.
+
+Jonan
+1) Summarize the chapter ( 1+ bullets )
+
+- Why do startups typically work with high technology?
+- The time quantum for hacking is very long, so startups have an advantage in uninterruptible time
+- A good hacker working without any corporate bullshit should be able to do $3 million worth of work in a year
+- "Bulk discount if you buy the economy-sized pain"
+- Billionaires are incredibly smart, and incredibly dedicated AND incredibly lucky
+- This essay is about how to create wealth and get paid for it; you have to do something people want
+- Wealth is not money. Wealth is what you want, money is how you get it.
+- If you make violins and none of the local farmers wants one how do you eat?
+- Want to find a good idea? Dodge your interests and you are more likely to find something others will need
+- Wealth is created everyday. We are not working from a finite pie
+- Productivity immediately affects wealth creation, and ranges from negative to millions a month for programmers
+- Hackers donate wealth by writing open source software
+- Nearly all companies exist to do something people want
+- Making something people want is what matters, not joining a group/company
+- The biggest problem in large companies is assigning value to everyone's work, they mostly average
+- To get rich you need measurement and leverage.
+- If there is a big potential for gain there must be a terrifying possibility for loss
+- In large groups individual efforts are not recognized, the weak slow the strong and the average member of a large group will be average. Small groups can be extraordinary
+- Technology is the technique that makes a startup
+- RUN UPSTAIRS
+- Startup - n: Working incredibly hard on difficult problems when you are 30 times more productive and barely achieving your goal.
+- At every decision point, take the harder choice.
+- A startup is like a mosquito, and a mosquito is designed for one thing: to score
+- It is easier to sell an established startup, even at an inflated rate, than an early one
+- Get users. Acquiring companies will judge you by how many users you have because they are the best indicator that you have created wealth
+- A restaurant can afford to burn the occasional dinner but in a startup you cook one thing and that's what everyone eats
+- A startup is, economically, a way of saying I want to work faster for more wealth
+- Let the nerds keep their lunch money and you rule the world
+
+2) What was one idea the surprised or stood out to you? Why? ( 2-4 sentences )
+
+- The time quantum for hacking is very long, so startups have an advantage in uninterruptible time
+
+It honestly didn't occur to me the huge productivity gain that working with a small team in a single office will afford in a startup
+
+3) What was a question that you saw as unanswered? ( 1-2 sentences )
+
+How do world governments affect startups when they primarily occupy a global space?
+
+4) Did you have any objections or disagreements? ( 1-2 sentences)
+
+I think in some respects we are still working from a finite pie, but it is more of a power pie than a wealth pie, and the power is given more opportunity to decide where and how the wealth gets made.
+
+5) What were your key take aways or things you want to remember? ( 1+ bullets )
+
+- At every decision point, take the harder choice.
+- Get users. Acquiring companies will judge you by how many users you have because they are the best indicator that you have created wealth
+- Let the nerds keep their lunch money and you rule the world

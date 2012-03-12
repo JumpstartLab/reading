@@ -5,7 +5,7 @@
 * Graham lists what the characteristics of a dream language are: simple, not
   verbose, libraries, open source, good community, quick to prototype, and lots
   of abstractions that make sense to hackers. It has a built in profiler and
-  perhaps tells you when you are algorithms are not optimized. If the language
+  perhaps tells you when your algorithms are not optimized. If the language
   lets you write inline code to optimize, even better.
 * Greater levels of abstraction mean fewer tokens and less typing. Hackers are lazy.
 * The Dream Language is not only open source, but open design

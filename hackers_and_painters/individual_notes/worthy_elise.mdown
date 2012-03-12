@@ -1,0 +1,317 @@
+Hackers and Painters Review by Elise Worthy 3/12/12
+===================================================
+
+Questions:
+----------  
+
+1. Summarize the chapter (1+ bullets)
+2. What was one idea the surprised or stood out to you? Why? (2-4 sentences)
+3. What was a question that you saw as unanswered? (1-2 sentences)
+4. Did you have any objections or disagreements? (1-2 sentences)
+5. What were your key take aways or things you want to remember? (1+ bullets)  
+
+1
+-
+
+1.  
+US public schools are holding pens for adolesents that breed boredom and cruelty.  
+Nerds aren't popular because they have better things to do.  
+
+2. 
+The idea that high school students have an elaborate caste system is surprising. The author seemed to think that popularity was both caused by being complacent and by actively working toward being popular. These conflicting ideas weren't resolved.
+
+3. 
+The author made broad claims about high school students' caste systems, popular students' disinterest in learning, the lack of involvement by adults in students' lives, and the uselessness of high school. Do other types of learning environments exist? He never tries to disprove his own personal experience.
+
+4. 
+His idea that student popularity is caused by caring more about popularity than about other things, and that popularity is based on a certain set of criteria is not absolute. My high school experience was awesome. I felt neither popular nor unpopular and the adults in my life were actively engaged in seeing me succeed, academically and beyond.
+
+5. 
+Some nerds were bullied heavily in school and didn't find productive things to do. 
+
+2
+-  
+
+1.  
+Hackers are more like painters (makers) than engineers (implementers).
+There is nuance and art to writing software.  
+
+2. 
+The author said to "...fight design wars in new markets," after explaining why large companies create bad software. It seems as if there's a tremendous amount to be gained by creating beautiful software that replaces existing crappy software written by large teams.
+
+3. 
+Why is knowing theory irrelevant? I understand that practice and application are extremely important to writing code, but it seems that knowing how systems are implemented to be efficient, and knowing about coding practices, is also valuable.
+
+4. 
+I've heard arguments against this, particularly related to diversity and championing women who care for families and take on a larger number of domestic duties than men. I think contribution to open source is not the primary identifier of love of software and that idea should be revamped.
+
+5. 
+Hackers start original, and get good, while scientists start good and get original. 
+Hacking, like painting, is done through gradual refinement. 
+Empathy for the user is crucial in creating great software. 
+
+3
+-
+
+1.  
+Moral fashion should be considered and consciously avoided.
+
+2. 
+The author states that moral issues are binary - you can ask whether something's true. Heretics think that common ideas are false. I believe that all moral issues are relative, so thinking that a pervasive moral idea is universally false seems really odd.
+
+3. 
+What kinds of issues is the author talking about? The author is condemning popular morality, but doesn't share his views on specific topics.
+
+4. 
+ His ideas of universal versus relative seem strange. He says that murder is universally wrong, though, but throughout history murder has had varying popular views. 
+
+5. 
+Critically think about the popular moral code and come up with your own opinions you can share with a close group of friends.
+
+
+4
+-
+
+1.  
+Disobedience is at the center of creativity and is very "American."
+Hacks, both elegant and ugly, break the rules.
+
+2. 
+Civil liberties lead to innovation and prosperity. Having less imposed means we can figure out what exists today and improve upon it.  
+
+3.  
+How do we delineate ugly hacking and groundbreaking hacking, other than with our existing biases?  
+
+4. 
+The last paragraph about rule setting didn't make sense. To whom is he referring with "...be careful what you ask for. You might get it." 
+
+5. 
+Dig into what exists to learn and get ideas.
+Be wary of artificial restrictions.
+
+5
+-  
+
+1.  
+Web-based applications are superior to desktop applications because they can be implemented and improved rapidly, taking the customer into account.
+
+2.  
+Large companies are frightened of software startups. They can't implement as rapidly and aren't as productive.
+
+3.  
+The least technical users are the ones that need web-based software the most but they're the slowest to change. How will this be addressed?
+
+4.  
+I am not sure I agree with total ownership of different pieces of software by different individuals. I agree that having multiple people write code on top of each other isn't good, but collaboration would probably lead to more elegant solutions.
+
+5.  
+Software that is released rapidly contains fewer bugs, and the bugs that are found are smaller and easier to fix.  
+To be successful launching a web-based startup, you need to know the technical side.
+Rich companies buy expensive solutions because there was more invested by the application company in acquiring them, but the software is likely worse.
+
+6
+-   
+
+1.  
+Wealth is not the same as money. You can create wealth and grow the 'wealth pie.'
+In large companies, your effort is measured by the average, so you aren't incentivized to work harder. 
+
+2. 
+A single skilled programmer can make hundreds of thousands of dollars of value in a day, while a mediocre programmer can make zero or negative value with the introduction of bugs.  
+
+3. He defines startups as businesses tackling hard technical problems. Is there an instance of a 'startup' combatting a non-technical hard problem? 
+
+4.  
+Is a boss always a proxy for the customers? In a big business, bosses do control work, but it seems like they may be less in touch with actual customer needs.
+
+5.  
+To gain wealth, put yourself in a position that has both measurement and leverage.
+Seek out the harder problems for competitive advantage.
+Numbers of users are a proxy for software quality.
+
+7
+-  
+
+1.  
+Variation in wealth is not a bad thing; it's a sign of innovation. 
+Take away individual's ability to keep the wealth they generate and you will stifle innovation.
+
+2.  
+We are trapped into thinking wealth should be distributed evenly because of how it was made historically (stolen). Because we were also given money as children, it seems unfair that some should have more than others.
+
+3.  
+Is how much someone makes only determined by the market? Are there other factors that influence pay of CEOs, basketball players, etc.?
+
+4.  
+Should everything be determined by the free market?   What about underpayment for people performing tasks that benefit society as a whole, not individuals as members of the society (research, etc.)? 
+
+5. 
+How much someone is worth is dependent on how desirable they are, it's not about what's "fair".
+The creation of wealth is the most efficient way to get it (easier than stealing).
+Increased wealth is better for everyone, and actually diminishes the perceived gap between the rich and poor (besides $).  
+The earner of wealth must be able to retain it to want to create it.
+
+8
+-  
+
+1.  
+Baysian filtering for spam is more effective than content filtering.
+
+2.  
+Spam filtering can be personalized based on the content of the spam and non-spam messages they receive. This is done by computing a spam probability from keywords in each.
+
+3.  
+I don't have any questions - this seems like a straightforward and elegant solution.
+
+4.  
+Spam will stop if people stop responding to it, but some people are enticed by the content of spam. If these people still respond to spam (15 in 1m), how will spam stop?
+
+5.  
+Employing statistics can be very effective in filtering spam. 
+Spam is a business with no marginal cost. 
+
+9
+-  
+
+1.  
+There is such a thing as good design, not subject to personal preference. 
+
+2.  
+"Good design is strange". If good design is simple and suggestive, I'm curious how it can also be strange. I think this is the author's personal interpretation of things he likes. 
+
+3.  
+Many of the design ideas he gives are high-level. Are there any axioms to good design that are more concrete (beyond simple and symmetrical)? 
+
+4.  
+This list seems to be stream-of-consciousness opinions about design. Is good design really timeless? Is good design always daring?
+
+5.   
+Good design is simple 
+Redesign is required to get it right  
+
+10
+--
+
+1.  
+A quick explanation of and set of opinions on programming languages, open source, and programming culture.
+
+2.  
+High-level programming languages let us do powerful things with less specific code. The greater the level of abstraction, the easier it is.
+
+3.  
+What's the best method for choosing a programming language?
+
+4.  
+He said that object-orientation should be an option, not a requirement, of a language. What does this do to transferability and maintenance of code?
+
+5.  
+With high level language, you can transfer it from one machine to another with different compilers.
+
+11
+--
+
+1.  
+A discussion about languages, how their evolution influences their design, and what to be mindful of when designing a language
+
+2.  
+Programmers of the future will want to have languages that allow them to do quick prototyping with little effort. They'll want languages that are easier to write, but   can adapt their speed.
+
+3.  
+Do we need to bet on the branch that will be working in the next 100 years? Why not use what's applicable now?
+
+4.  
+Is it always best to stay on the main branches? Where do cutting-edge languages lie, and how can we figure out how they're going to do without exploring?
+
+5. 
+Know the evolution of languages to make good choices about what to use and how to create new languages
+Languages that thrive have the smallest, cleanest cores
+OO languages are not reusable because they're OO, it's because they're bottom-up (libraries for example)
+
+
+12
+--
+
+1.  
+Lisp is powerful language and knowing it gives you the freedom to evaluate other languages
+
+2. 
+I've never heard of Lisp in use, and he says Lisp is the most powerful language available. Is this still true?  
+
+3.  
+The author says a startup should give its competitors as little information as possible, but this seems contradictory to the open source mentality. Many leading startups (37 Signals included) gives quite a bit of information publically in their blog, etc. - what's best?
+
+4.  
+ Why not write in a language you're most proficient in, recognizing there might be easier ways to do it in languages you're not as good at?
+
+5.   
+Average performance by a startup means the startup will go out of business
+Know the most powerful languages before deciding on what to use for specific applications
+Use rare but powerful languages for your competitive advantage
+Use job descriptions as a way to evaluate competitors
+
+13
+--
+
+1.  
+Not all programming languages are created equal
+
+2.  
+Lisp started out as a theoretical exercise, but became a language. It's still relevant because it's based on math, not technology.
+
+3.  
+It seems like many of the benefits of Lisp exist in Ruby. Is there any benefit to using Lisp now?
+
+4.   
+I haven't heard anything about Lisp macros - I think I would have by now if they were so crucial (but maybe not). Is this idea still relevant?
+
+5.  
+Choosing a more powerful language decreases the team size you need
+Don't let non-technical managers make technical decisions for you
+
+14
+--
+
+1. 
+Exploring what makes languages popular and desirable
+
+2.  
+A language has to be popular to be good. This is because languages evolve on the surface, though their core will always remain relatively unchanged.
+
+3.  
+Java is popular largely because of its backing from Sun. How does corporate influence play a role?
+
+4.  
+Is it still the case that the language has to be around for a couple of years before even experts adopt. It seems that folks on the cutting edge like using the breakthrough implementations (node, for example).
+
+5.  
+Expert hackers are a tiny minority, but their decisions will influence all programmers
+Hackers like succinctness. Succinctness comes from abstraction.
+A good language should be clean (small core of well understood operators) and dirty (the programmers can do what they want with it)
+Maintain healthy naivety (optimistic about solving the problem) and skepticism (what's the value of this solution?)
+
+15
+--
+
+1.  
+This chapter explores the intersection research and design  
+
+2.  
+Once you focus on the design of a language as a design problem, you will think of the user first. It's best to study what the user needs first.
+
+3.  
+How much of programming languages' popularity is luck, not just good design?
+
+4.  
+Ruby as designed for programmer happiness - but it also seems like it was originally developed (and in some ways, still is) in a vacuum. How much of the user research is necessary when you're designing a language that will eventually evolve?
+
+5.  
+  Design doesn't have to be new, but it has to be good. Research doesn't have to be good, but it has to be new. 
+If you're designing something for idiots, chances it won't be good, even for idiots.
+To get good design you have to get close and stay close to your users.
+Get a prototype in front of users as quickly as possible.
+If you're bored when you draw something, the drawing will be boring.
+
+
+
+
+

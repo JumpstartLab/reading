@@ -1,31 +1,31 @@
 # Chapter 1 - Why Nerds are Unpopular
 
 ## Summary
-  
-* Graham summarizes why junior high sucks. Before maturation, social constructs dominate and lead to viscous social climbing. Nerds aren't good at this, or don't care enough to participate.
-* Being smart isn't the problem, it's that nerds are busy thinking about other things rather than popularity.
-* The real world is very different from school as a kid, and it can be tough for those who prioritize things desired by the productive real world as opposed to popularity.
+
+* Because school lacks any significant purpose, the whole system devolves into a popularity contest as a way to derive purpose from the system.
+* Students can't be smart and also popular. They must choose one or the other. There is a black and white divide between nerds and socialized students.
+* Smart kids feel ostracized at school because:
+* They are a safe target for the other kids to prove their popularity
+* Nerds are focused on grades and 'smart' interests so they don't put time into being popular or personable.
 
 ## What Stood Out
 
-* I was surprised at the idea that schools are merely a place for parents to drop their kids to stay busy while they do work. I would think that the system would either be smarter than that or people would remove themselves from it in larger percentages if that is the case. Unless everyone is oblivious to this "truth".
-* I had a very different school experience. Popularity was an issue, but not as brutal as described by the author.
-
-> The inhabitants of all those worlds are trapped in little bubbles where nothing they do can have more than a local effect. Naturally these societies degenerate into savagery. They have no function for their form to follow. - _Paul Graham_
+* Suburbia causes many problems with today's teenagers. Related to this is the concept that suburbs are for breeding and creating families.
+* Teenagers are driven crazy by the idleness of their lives, and they need something to work on to be sane and happy. Smart kids have hacking, popular kids have social standing.
+* Teenagers would benefit from more real world training when they are young.
 
 ## Questions Unanswered
 
-* Although he partially answered how to handle this system as a nerd to make it not as bad, he did not answer a better solution for training people to perform the jobs of today's specialized world. 
-* Also he did not answer how to handle being a part of multiple worlds such as being an athlete and a nerd.
-* He talks a lot about finding a solution to this problem, but offers no ideas.
+* What is the solution? How can we fix schools, where being smart is looked down upon?
+* There is a generational gap in the early 2000's (90's babies). How does this affect the high school experience of 'smart people' or 'nerds' in 2012?
 
 ## Objections
-
-* I somewhat disagree that playing by all of the rules and shutting your mouth is constantly pushed. Maybe I had different teachers but they seemed to encourage me to think outside of constraints, create change, and stand up for what I believe within the constraints of respect and reason.
-* I disagree with the premise that all humans are happy working. Some seem to be more content doing nothing.
+* Schools do provide social experience which is inherently valuable. Even if it is painful to learn.
+* High schools have problems, but the severity seems exaggerated by the author's personal experiences.
+* The experience in school is not a black and white, popular or smart dichotomy.
 
 ## Takeaways
-
-* The reason why people in high school and in the real world can be so different isn't always based on their inherent abilities, but rather what they prioritize.
-* The stupid parts of life are nasty, brutish, and (thankfully) short. Keep your head down and you'll be fine in the end.
-* Have a purpose in what you do.
+* The educational system is broken.
+* The life of a 'smart person' is at it's lowest point in middle/high school.
+* Smart kids aren't popular because they spend their time focusing on other things.
+* Have a purpose. It tends to make things better.

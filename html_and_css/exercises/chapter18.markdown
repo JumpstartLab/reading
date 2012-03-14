@@ -28,3 +28,12 @@ You want to keep the user in mind, and if your main goal of your website is to s
 So go ahead and add this information to the lower left hand column of the site.
 
 For an example on how to do this, see the resources folder for my completed wireframe.
+
+# Further Research
+Upon completing your website and publishing it you will begin to track your website and determine your turn over ratio for whatever goal you are trying to accomplish.
+
+One way of potentially increasing this is reiterating over this process and creating two seperate templates of sections of your website.
+
+This is typically called A/B testing and is done by all larger websites. The craziest part is you will have know if you are on A or B because they session based!
+
+For basic information see wikipedia http://en.wikipedia.org/wiki/A/B_testing

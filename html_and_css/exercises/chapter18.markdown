@@ -19,7 +19,7 @@ You want to keep the user in mind, and if your main goal of your website is to s
 
 ### A Typical Store Has
 
-* Map
+* A Google Map of their location
 * Contact information
 * Store Hours
 

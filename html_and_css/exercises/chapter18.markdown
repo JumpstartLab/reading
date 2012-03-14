@@ -1,5 +1,5 @@
 # Process and Design
-Before beginning any website you want to have a general understanding of what the user experience is going to be. What is the general look and feel of the website going to be, and what is the goal of it? You need to prioritize your content by making some things bigger then others, or higher up in the page. 
+Before beginning any website you want to have a general understanding of what the user experience is going to be? What is the general look and feel of the website going to be, and what is the goal of it? You need to prioritize your content by making some things bigger then others, or higher up in the page. 
 
 You want to keep the user in mind, and if your main goal of your website is to sell a daily deal you should portray your content in such a way that the users eyes are drawn there first.
 

@@ -30,10 +30,12 @@ So go ahead and add this information to the lower left hand column of the site.
 For an example on how to do this, see the resources folder for my completed wireframe.
 
 # Further Research
-Upon completing your website and publishing it you will begin to track your website and determine your turn over ratio for whatever goal you are trying to accomplish.
+Upon completing your website and publishing it you will begin to analyze your users and determine your turn over ratio for whatever goal you are trying to accomplish.
 
-One way of potentially increasing this is reiterating over this process and creating two seperate templates of sections of your website.
+One way to potentially increase your turn over ratio is by reiterating over this process and creating two seperate templates of sections of your website.
 
 This is typically called A/B testing and is done by all larger websites. The craziest part is you will have know if you are on A or B because they session based!
 
 For basic information see wikipedia http://en.wikipedia.org/wiki/A/B_testing
+
+Or see http://railscasts.com/episodes/331-a-b-testing-with-split for a detailed explation on how to implement this in rails.

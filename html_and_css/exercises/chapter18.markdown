@@ -1,7 +1,7 @@
 # Process and Design
-Before beginning any website you want to have a general understanding of what the user experience is going to be. When a user visits your site what do you want to them to do while you have their attention? You need to emphasize your content and some ways of doing this are making elements bigger then others, or displaying information towarsd the top of the page. 
+Before beginning any website, you must decide what you want your user experience to be. How do you want to grab the attention of your users when someone visits your site? You need to emphasize your content. Some ways of doing this are making elements bigger then others, or displaying information towards the top of the page. 
 
-You want to keep the user in mind, and if your main goal of your website is to sell a daily deal you should portray your content in such a way that the users eyes are drawn there first.
+You always want to keep the user in mind. If your main goal of your website is to sell a daily deal, draw your users' eyes to the important content first.
 
 ## The main points of this chapter summarized are to
 
@@ -34,7 +34,7 @@ Upon completing your website and publishing it you will begin to analyze your us
 
 One way to potentially increase your turn over ratio is by reiterating over this process and creating two seperate templates or sections of your website.
 
-This is typically called A/B testing and is done by all larger websites. The craziest part is you will have know if you are on version A or B because they session based!
+This is typically called A/B testing and is done by all larger websites. The craziest part is you will not know if you are on version A or B because they are session based!
 
 For basic information see wikipedia http://en.wikipedia.org/wiki/A/B_testing
 

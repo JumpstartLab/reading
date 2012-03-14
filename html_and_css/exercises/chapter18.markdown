@@ -1,5 +1,5 @@
 # Process and Design
-Before beginning any website you want to have a general understanding of what the user experience is going to be. When a user visits your site what do you want to them to do while you have their attention? You need to emphasize your content and some ways of doing this are making elements bigger then others, or displaying information at the top of the page. 
+Before beginning any website you want to have a general understanding of what the user experience is going to be. When a user visits your site what do you want to them to do while you have their attention? You need to emphasize your content and some ways of doing this are making elements bigger then others, or displaying information towarsd the top of the page. 
 
 You want to keep the user in mind, and if your main goal of your website is to sell a daily deal you should portray your content in such a way that the users eyes are drawn there first.
 

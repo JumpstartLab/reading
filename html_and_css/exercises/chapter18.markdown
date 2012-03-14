@@ -32,9 +32,9 @@ For an example on how to do this, see the resources folder for my completed wire
 # Further Research
 Upon completing your website and publishing it you will begin to analyze your users and determine your turn over ratio for whatever goal you are trying to accomplish.
 
-One way to potentially increase your turn over ratio is by reiterating over this process and creating two seperate templates of sections of your website.
+One way to potentially increase your turn over ratio is by reiterating over this process and creating two seperate templates or sections of your website.
 
-This is typically called A/B testing and is done by all larger websites. The craziest part is you will have know if you are on A or B because they session based!
+This is typically called A/B testing and is done by all larger websites. The craziest part is you will have know if you are on version A or B because they session based!
 
 For basic information see wikipedia http://en.wikipedia.org/wiki/A/B_testing
 

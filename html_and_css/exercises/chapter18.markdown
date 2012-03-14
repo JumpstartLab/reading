@@ -10,7 +10,7 @@
 ## Create a simple wireframe using Gliffy.com.
 
 * Go to file -> new -> Website / Software UI Design -> Choose Contact Form Wireframe.
-* You will notice Gliffy creates must of the work for you. 
+* You will notice Gliffy does must of the work for you. 
 * Explore the left hand side. Notice the form components, maps, windows. Most of the things you see on a typical website.
 * Now Lets add some basic information to this exisiting wireframe.
 

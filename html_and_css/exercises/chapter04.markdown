@@ -1,5 +1,7 @@
-Base Expectations
+# Chapter 4 Exercise - Links
 
-Extensions
+## Base Expectations
+* Complete the non-bonus exercises at resources/chapter04/index.html
 
-Reference solutions in another file
+## Extras
+* Complete the bonus exercises

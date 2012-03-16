@@ -11,6 +11,7 @@ This chapter closed  the book reviewing:
 using this crudely designed fansite for david hasslehoff-dhfans.com- implement the 6 SEO opitmization tips on page 480 to improve it's search engine visability
 
 https://gist.github.com/2053048
+
 +if your curious, check out use one of the mentioned tools (www.wordtracker.com, www.keywordtracker.com) to identify keywords to optimize SEO for dhfans.com
 
 *Anlaytics*

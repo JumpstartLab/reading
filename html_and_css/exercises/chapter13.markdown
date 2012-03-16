@@ -7,7 +7,7 @@ https://skitch.com/e-tensai/8k1im/html-and-css-chapter-13-boxes-exercise
 ```html
 <html>
 <head>
-<title>HTML & CSS - Chapter 13 - Boxes Exercise</title>
+<title>HTML &amp; CSS - Chapter 13 - Boxes Exercise</title>
 </head>
 <body>
 <div id='container'>

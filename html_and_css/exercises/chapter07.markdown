@@ -7,15 +7,14 @@ not need to point to a real webserver.
 * First Name
 * Last Name
 * Password with characters blocked out
-* Email with validation
 * A gender radio button (Male or Female)
-* A group that allows you to select your favorite beverage: Water, Fruit Juice, Ethanol
+* A control to select all your favorite beverages: ex. Water, Fruit Juice, Soda, Ethanol, etc
 * Submit button
 
 
 # Extensions
-* Take a look at form elements with a http request inspector to validate how
-  parameters are sent to servers
+* Take a look at the submitted request playload with a http request inspector.
+* Hint: Chrome allows you to inspect the request payload with it's debugger.
 * Add HTML 5 form elements to your form.
 * Compare other types of form validation(JQuery, Prototype, Dojo, etc) with HTML5
   form validation.

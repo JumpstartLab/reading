@@ -10,8 +10,11 @@
 
 ###Instructions:
 *Create a new .html file and walk through the steps below.
+
 1. Create a simple grid with these 2 rows of information:
+
 A: `[125, 300, 40, 75]`
+
 B: `[48, 15, 0.5, 999]`
 
 2. Label Row 1 `Price (tickets)` and Row 2 `Expected Lifespan (hours)` Remember that `<th>` tags contain non-standard or "heading" information.

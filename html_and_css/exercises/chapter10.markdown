@@ -1,6 +1,6 @@
 # Chapter 10: Starting CSS
 
-# Base Exceptions:
+### Base Exceptions:
 Complete all the instructions below without modify the html syntax. Everything must be
 done using css. Read the instructions on where the changes need to be made (index.html / style.css)
 
@@ -28,7 +28,7 @@ Within the `index.html`, using the style tag, make the following changes
 * To target a child element, use `parent > child`
 * To target the next element, use `first + second`
 
-`<p id='testing'>Hello</p>
+`<p id='testing'>Hello</p><br />
  <div>Good</div>
 `
 

@@ -37,4 +37,4 @@ No. The <title> tag will put information in the menu bar of the document, but no
 
 In 2000 words or less, describe the travel of a packet of information from your home computer to a server.
 
-The request goes from my computer (example: from the web browser). It travels through the wireless network to a cable modem. The cable modem sends the packet via cable to my ISP, Comcast via a series of relays (there are many paths it culd take). Comcast sends the request out across more relays and the main backbone of the internet, across various servers until it reaches the server it is intended for.
+The request goes from my computer (example: from the web browser). It travels through the wireless network to a cable modem. The cable modem sends the request via cable to my ISP, Comcast via a series of relays (there are many paths it culd take). Comcast sends the request out across more relays and the main backbone of the internet, across various servers until it reaches the server it is intended for.

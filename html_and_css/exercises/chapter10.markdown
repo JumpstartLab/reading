@@ -19,7 +19,7 @@ Modify the `style.css` to make the following changes.
 Within the `index.html`, using the style tag, make the following changes 
 
 1. Change `#lorem_ipsum` to `bold`, with the color `red` and `underlined`. 
-2. Change the 1first set of bullet points` (top 3) to `red`. Notice that they have
+2. Change the `first set of bullet points` (top 3) to `red`. Notice that they have
    been wrapped in a div with the id `paragraph_list`
 
 ### Tips:

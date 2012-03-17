@@ -1,4 +1,4 @@
-#Chapter 6 - Tables
+![]()#Chapter 6 - Tables
 
 ###Main Ideas
 * Individual table cells use `<td>` tags for "table data"

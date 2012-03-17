@@ -1,5 +1,8 @@
-Base Expectations
+# Chapter 4 Exercise - Links
 
-Extensions
+## Base Expectations
+* Complete the non-bonus exercises at resources/chapter04/index.html
+* Put all of your completed files in their proper directory structure in a folder with your name in "individual solutions"
 
-Reference solutions in another file
+## Extras
+* Complete the bonus exercises

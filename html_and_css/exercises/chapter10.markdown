@@ -1,7 +1,7 @@
 # Chapter 10: Starting CSS
 
 ### Base Exceptions:
-Complete all the instructions below without modify the html syntax. Everything must be
+Complete all the exercises below without modifying the html syntax. Everything must be
 done using css. Read the instructions on where the changes need to be made (index.html / style.css)
 
 ### Exercises:

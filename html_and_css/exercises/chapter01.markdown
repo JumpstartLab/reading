@@ -1,16 +1,21 @@
 # Chapter One
 
-1 What are the parts of a tag? (use <p lang= "en-US">Call me maybe...</p> as a reference)
+1 What are the parts of a tag? (use `<p lang= "en-US">Call me maybe...</p>` as a reference)
 
 
 2 What is the structure of HTML?
 
 
 3 What does HTML stand for?
+
   H
+  
   T
+  
   M
+  
   L
+  
 4 Create a haiku about HTML, demonstrating your understanding of the topic.
 
 

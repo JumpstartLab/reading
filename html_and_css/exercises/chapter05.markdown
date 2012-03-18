@@ -7,9 +7,9 @@
 
 2. Embed it in the  first paragraph justified to the left and contains a title, alt description and dimensions of the file.
 
-3. Embed it in the next paragraph justified to the right, but with a figure caption.
+3. Embed it above the next paragraph, but with a figure caption.
 
-4. Crop the provided logos for the Hungry Academy so only your preferred version is still present and embed in the document above the title.
+4. In ipiccy.com, crop the provided logos for the Hungry Academy so only your preferred version is still present and embed in the document above the title.
   * be sure that you keep the transparency!
 
 GENERAL NOTE:

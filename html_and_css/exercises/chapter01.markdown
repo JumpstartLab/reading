@@ -19,11 +19,13 @@
 4 Create a haiku about HTML, demonstrating your understanding of the topic.
 
 
-
 5 If I put text between body tags, where does that text show up in Safari 3.2? In IE 4rc1?
 
-6 When creating a <head> tag, does this information show up on the rendered document?
+
+6 When creating a `<head>` tag, does this information show up on the rendered document?
+
 
 ## Challenge yourself!
+
 
 In 2000 words or less, describe the travel of a packet of information from your home computer to a server.

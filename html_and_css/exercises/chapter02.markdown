@@ -2,11 +2,11 @@
 ### Overview
 
 Goals
-By the end of the exercise, you should be able to beautifully style and format text on your webpages. Brace yourselves to learn about a bunch of stuff I like: Nerdy jokes abound.
+By the end of the exercise, you should be able to beautifully style and format text on your webpages. Brace yourselves: Nerdy jokes abound.
 
 The exercise, located in the resources folder, is entitled format_me.html and is split into two sections:
 
 * Structural markup - used to format headings and paragraphs
 * Semantic markup - used to provide extra information (e.g. quotes, citation, emphasis, etc.)
 
-The instructions are pretty self-explanatory and have been incorporated into the exercise.  Happy formatting!
+The instructions are self-explanatory and have been incorporated into the exercise.  Happy formatting.

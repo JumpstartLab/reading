@@ -1,7 +1,7 @@
 #Chapter 11 - Color
 ###Instructions:
 1. Grab the HTML file:
-  - Inside of `html_and_css/resources/chapter11`, it's called `chapter11exercise.html`.
+  - The file is called `chapter11exercise.html` and you can [locate it here](https://github.com/JumpstartLab/reading/blob/master/html_and_css/resources/chapter11/chapter11exercise.html).
 2. Open the file in an editor.
 3. _For "Step 1":_
   - Replace the text "Step 1" with your name. 
@@ -18,10 +18,10 @@
   - Give the beast full opacity on hover.
 
 ###Expectations:
-- Complete the exercises above. 
+- Complete the exercises above. The finished product should resemble [this file](https://github.com/JumpstartLab/reading/blob/master/html_and_css/reference_solutions/chapter11/finished.html).
 
 ###Nice to Know:
-- You will find the selectors needed to complete this exercise in the `<head>` tag of `chapter11exercise.html`. (Again, this in `html_and_css/resources/chapter11`). If you don't want to use the ones I provide, you can make your own. 
+- You will find the selectors needed to complete this exercise in the `<head>` tag of [chapter11exercise.html](https://github.com/JumpstartLab/reading/blob/master/html_and_css/resources/chapter11/chapter11exercise.html). If you don't want to use the ones I provide, you can make your own. 
 
 ###References:
 - For hints about giving color to text, see page 249 . 

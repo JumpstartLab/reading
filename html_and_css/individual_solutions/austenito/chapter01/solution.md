@@ -31,7 +31,7 @@ lang => attribute name
 
 Hypertext markup language
 Designers are magical
-Devs bow down
+Leet haxors of code
 
 5 If I put text between body tags, where does that text show up in Safari 3.2? In IE 4rc1?
 

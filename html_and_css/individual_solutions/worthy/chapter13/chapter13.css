@@ -1,0 +1,20 @@
+body {
+  font-weight: bold;
+}
+
+div#container {
+  text-align: center;
+  border: 10px solid black;
+  background-color: red;
+  padding: 20px;
+  }
+
+div#content {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 5px white;
+  color: white;
+  background-color: blue;
+}

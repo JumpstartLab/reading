@@ -50,7 +50,7 @@ The easiest way to remember the syntax is to just look up a CSS3 gradient genera
 Try creating a gradient of your choosing at the site and implement it so that gradient covers the entire page.
 
 
-### Extention
+### Extension
 
 Sprites: Sprites help decrease a page's load speed by replacing multiple images with one large image.  The idea behind a sprite is simple.  Making additional hhtp requests to load images will slow the performance of your site.  To counter this, we can load one large image that will contain different images which we can reveal when necessary.
 

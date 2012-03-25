@@ -1,0 +1,27 @@
+%form
+	%fieldset
+		%label{:for=> "user[first_name]"} First Name: 
+		%input{:type=> "text", :name => "user[first_name]"}
+
+		%br
+		%label{:for=> "user[last_name]"} last Name: 
+		%input{:type=>"text", :name=> "user[last_name]"}
+
+		%br
+		%label{:for=> "user[password]"} Password: 
+		%input{:type=>"password", :name=> "user[password]"}
+
+		%br
+		%label{:for=> "user[gender]"} Gender: 		
+		%input{:type=>"radio",:name=>"user[gender]", :value => "female"}
+		%input{:type=>"radio", :name=>"user[gender]",:value=>"male"}
+
+		%br
+		%label{:for=> "user[soda]"} Fav Soda: 		
+		%input{:type=>"checkbox", :name =>"user[soda][]", :value => "water"}
+		%input{:type=>"checkbox", :name =>"user[soda][]", :value => "Fruit"}
+		%input{:type=>"checkbox", :name =>"user[soda][]", :value => "Soda"}
+		%input{:type=>"checkbox", :name =>"user[soda][]", :value => "Ethanol"}
+
+		%br
+		%input{:type=>"submit", :name=>"Submit", :value => "Submit"}

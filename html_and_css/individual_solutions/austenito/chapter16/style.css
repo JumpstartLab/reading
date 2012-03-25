@@ -1,0 +1,36 @@
+img.small {
+  width: 100px;
+  height: 100px;
+}
+
+img.medium {
+  width: 250px;
+  height: 250px;
+}
+
+img.large {
+  width: 300px;
+  height: 300px;
+}
+
+img.align-left {
+  float: left;
+  margin: 5px;
+}
+
+img.align-right {
+  float: right;
+  margin: 5px;
+}
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+body {
+  background-image: url("../../../resources/chapter16/images/spring_background.jpg");
+}
+
+h1 {
+  margin: 190px 0px 0px 150px;
+}

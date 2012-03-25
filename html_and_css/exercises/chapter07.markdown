@@ -17,7 +17,7 @@ Make a form of **related** elements of user information.
 
 
 # Extensions
-* Take a look at the submitted request playload with a http request inspector. Hint: Chrome allows you to inspect the request payload with it's debugger.
+* Take a look at the submitted request payload with a http request inspector. Hint: Chrome allows you to inspect the request payload with it's debugger.
 * Add HTML 5 form elements to your form.
 * Compare other types of form validation(JQuery, Prototype, Dojo, etc) with HTML5
   form validation.

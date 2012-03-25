@@ -2,7 +2,7 @@
 
 **Chris and Conan**
 
-**Setup:** Please grab the file `chapter_12_base.html` and `Museo_Slab_500.otf` from `html_and_css/resources/chapter12`. Put both files are in the same directory for the purposes of this tutorial.
+**Setup:** Please grab the file `chapter_12_base.html` and `Museo_Slab_500.otf` from `html_and_css/resources/chapter12`. Put both files in the same directory for the purposes of this tutorial.
 
 ## Excercises
 

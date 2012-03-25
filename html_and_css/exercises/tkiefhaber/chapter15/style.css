@@ -1,9 +1,9 @@
 body {
-  width: 90;
+  width: 80%;
   margin: 0 auto;
   font-family: helvetica, arial, sans-serif;
   color: #ff0099;
-  background-color: #00ccff;
+  background-color: #262626;
 }
 
 #header h1 {
@@ -26,12 +26,13 @@ body {
 }
 .column1, 
 .column2, 
-.column3 {
+.column3,
+.column4 {
   background-color: #99ccff;
-  width: 280px;
+  width: 20%;
   float: left;
-  margin: 10px; 
-  padding: 10px;
+  margin: 12.2px; 
+  padding: 12px;
 }
 
 li {

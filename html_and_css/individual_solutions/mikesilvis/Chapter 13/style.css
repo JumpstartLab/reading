@@ -1,0 +1,16 @@
+#container {
+	border:10px solid black;
+	background-color:red;
+	padding: 20px;
+	margin:auto;
+	width:200px;
+}
+
+#content {
+	margin: 20px auto;
+	padding: 5px;
+	border:5px solid white;
+	color:white;
+	background-color:blue;
+	width:100px;
+}

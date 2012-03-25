@@ -10,11 +10,12 @@ body {
   display: inline-block;
   font-size: 5em;
   line-height: .1;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 #content {
   overflow: auto;
   height: 100%;
+  float: both;
 }  
 
 #nav, 
@@ -27,7 +28,7 @@ body {
 .column1, 
 .column2, 
 .column3 {
-  background-color: #99ccff;
+  background-color: #000000;
   width: 280px;
   float: left;
   margin: 10px; 
@@ -36,7 +37,7 @@ body {
 
 li {
   display: inline;
-  padding: 5px;
+  padding: 60px;
 }
 
 ul {
@@ -44,5 +45,5 @@ ul {
 }
 
 ul a {
-  text-decoration: none;
+  text-decoration: underline;
 }

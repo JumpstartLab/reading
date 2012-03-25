@@ -1,0 +1,43 @@
+* { margin: 0; padding: 0; }
+
+
+/*-----Iteration 3 spring background-----
+body      { background: url(../../../resources/chapter16/images/spring_background.jpg) no-repeat left top; }
+------------------end------------------*/
+
+body      { 
+  background: #b7deed; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I3ZGVlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzcxY2VlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIxYjRlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiN2RlZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7deed), color-stop(50%,#71ceef), color-stop(51%,#21b4e2), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* IE10+ */
+  background: linear-gradient(top,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-8 */
+}
+
+p         { padding: 10px 0; }
+.small    { height: 50px; width: 70px; }
+.medium   { height: 80px; width: 110px; }
+.large    { height: 110px; width: 140px; }
+
+.right    { float: right; }
+.left     { float: left; }
+.center   { margin: 0 auto; }
+
+h1        { padding: 20px 0; }
+
+div       { position: relative; margin: 10px 0; }
+
+#banner   { background: url(../../../resources/chapter16/images/wood-background.jpg) repeat-x; margin: 0; padding: 20px 0;}
+#it2 img  { display: block; }
+
+a.button  { height: 36px; background-image: url(../../../resources/chapter16/images/button-sprite.jpeg); text-indent: -9999px; display: inline-block; }
+a#add-to-basket { width: 174px; background-position: 0px 0px; }
+a#framing-options { width: 210px; background-position: -175px 0px; }
+a#add-to-basket:hover { background-position: 0px -40px; }
+a#framing-options:hover { background-position: -175px -40px; }
+a#add-to-basket:active { background-position: 0px -80px; }
+a#framing-options:active { background-position: -175px -80px; }

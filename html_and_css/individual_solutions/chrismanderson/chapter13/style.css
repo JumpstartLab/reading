@@ -1,0 +1,24 @@
+body {
+	font: bold 1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#container {
+	background-color: red;
+	border: 10px solid #333;
+	margin: 36px auto;
+	width: 50%;
+	padding: 20px;
+}
+
+#content {
+	background-color: blue;
+	border: 5px solid white;
+	color: #fff;
+	margin: 36px auto;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 5px;
+	
+	
+}

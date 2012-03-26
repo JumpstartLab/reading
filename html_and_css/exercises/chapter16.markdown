@@ -2,8 +2,8 @@
 
 ## Goals
 * Controlling size of images in CSS
-*Aligning images in CSS
-*Adding background images
+* Aligning images in CSS
+* Adding background images
 
 ## Base Expectations
 * Transforming image size based on CSS class selectors
@@ -14,13 +14,17 @@
 ## Extensions
 * Using sprites to replace multiple images with one.
 
+* Directions
+
+There is no set HTML template.  Just create a new file and save it as .html.
+
 Ready, set, go...
 
 ### Iteration 1
 
 Sizing Images: HTML allows you to set the size of a photo, but a better practice is to create class selectors which can be referenced in your stylesheets.  Similar to the idea of creating smaller triangles in your ruby code, this allows you to change the images dimensions in one place instead of looking for every html img tag where an image is defined.
 
-Create three class selectors labeled large, medium, and small.  Reference these selectors in your CSS <aside>img.'label'</aside>
+Create three class selectors labeled large, medium, and small.  Reference these selectors in your CSS img.'label'
 
 You should have three different sized photos
 
@@ -50,7 +54,7 @@ The easiest way to remember the syntax is to just look up a CSS3 gradient genera
 Try creating a gradient of your choosing at the site and implement it so that gradient covers the entire page.
 
 
-### Extension
+### Extention
 
 Sprites: Sprites help decrease a page's load speed by replacing multiple images with one large image.  The idea behind a sprite is simple.  Making additional hhtp requests to load images will slow the performance of your site.  To counter this, we can load one large image that will contain different images which we can reveal when necessary.
 

@@ -1,0 +1,30 @@
+img.large {
+  width:500px;
+  height: 500px;
+}
+
+img.medium {
+  width:250px;
+  height: 250px;
+}
+
+img.small {
+  width:125px;
+  height: 125px;
+}
+
+img.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+img.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+img.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

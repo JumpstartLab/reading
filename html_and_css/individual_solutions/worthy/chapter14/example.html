@@ -1,0 +1,73 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+  input[type="text"] {
+  	border-radius: 5px;
+  	background-color: #BC8F8F;
+  	margin: 10px;
+  }
+  input[type="email"] {
+  	border-radius: 5px;
+  	background-color: #BC8F8F;
+  	margin: 10px;
+  }
+  textarea {
+  	background-color: white;
+  	color: black;
+  }
+  textarea:hover {
+  	background-color: black;
+  	color: white;
+  }
+  textarea:active {
+  	background-color: white;
+  	color: black;
+  }
+  input[type="submit"] {
+  	cursor: pointer;
+  }
+  fieldset {
+  	width: 350px;
+  	border: 5px solid red;
+  }
+  legend {
+  	background-color: cyan;
+  }
+  }
+</style>
+		<title>Forms</title>
+	</head>
+	<body>
+		<form action="http://www.example.com/review.php" method="get">
+			<fieldset>
+				<legend>Your Details:</legend>
+				<label>Name: <input name="name" size="30" maxlength="100" type="text"></label><br>
+				<label>Email: <input name="email" size="30" maxlength="100" type="email"></label><br>
+			</fieldset><br>
+			<fieldset>
+				<legend>Your Review:</legend>
+				<p>
+					<label for="hear-about">How did you hear about us?</label>
+					<select name="referrer" id="hear-about">
+						<option selected="selected" value="google">Google</option>
+						<option value="friend">Friend</option>
+						<option value="advert">Advert</option>
+						<option value="other">Other</option>
+					</select>
+				</p>
+				<p>
+					Would you visit again?<br>
+					<label><input name="rating" value="yes" type="radio"> Yes</label>
+					<label><input name="rating" value="no" type="radio"> No</label>
+					<label><input name="rating" value="maybe" type="radio"> Maybe</label>
+				</p>
+				<p>
+					<label for="comments">Comments:</label><br>
+					<textarea rows="4" cols="40" id="comments"></textarea>
+				</p>
+				<label><input name="subscribe" checked="checked" type="checkbox"> Sign me up for email updates</label><br>
+				<input value="Submit review" type="submit">
+			</fieldset>
+		</form>
+	
+</body></html>

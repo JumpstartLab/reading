@@ -1,0 +1,8 @@
+body {font-family: verdana, arial, sans-serif;}
+h1 {color:#ee3e80;}
+h3 {color:#665544;
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: normal;}
+p {font-size: 13px;}
+#heading_two {font-weight: bold;}

@@ -1,0 +1,17 @@
+body {
+  background: rgb(240,183,161); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(140,51,16,1) 32%, rgba(117,34,1,1) 61%, rgba(191,110,78,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,183,161,1)), color-stop(32%,rgba(140,51,16,1)), color-stop(61%,rgba(117,34,1,1)), color-stop(100%,rgba(191,110,78,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 32%,rgba(117,34,1,1) 61%,rgba(191,110,78,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 32%,rgba(117,34,1,1) 61%,rgba(191,110,78,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 32%,rgba(117,34,1,1) 61%,rgba(191,110,78,1) 100%); /* IE10+ */
+  background: linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(140,51,16,1) 32%,rgba(117,34,1,1) 61%,rgba(191,110,78,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
+}
+
+h1 {
+  margin-top: 15%;
+  margin-left: 15%;
+}
+

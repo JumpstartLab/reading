@@ -21,14 +21,3 @@ The main content of the below site is in one column. Change this into four equal
 
 Step 2:
 The below site has a fixed-width layout, which means that the layout isn't flexible when the browser window is smaller than the size specified in the code. You should convert this to a liquid (or responsive) layout - one that dynamically resizes based on screen/window size. Base expectations are to change fixed widths to % widths, but if you're feeling ambitious, we challenge you to nightmare mode - add media queries to change the layout for different devices.
-
-Instructions:
- <ul>
- <li>Visit the project at http://eliseworthy.github.com</li>
- <li>Fork the repo (https://github.com/eliseworthy/eliseworthy.github.com)</li>
- <li>Get your modified code on the web quickly by creating a repo named "your_username.github.com"* (if you need more information, visit http://pages.github.com/)</li>
- <li>Modify the HTML/CSS to meet steps 1 and 2 (Change up that crazy color scheme, text, and hampster if you want!)</li>
- <li>Push the project to your "your_username.github.com" repo</li>
-</ul>
-
-*If you already have a page on GitHub or really don't want to do this, just put your solultions in your individual_solutions folder.

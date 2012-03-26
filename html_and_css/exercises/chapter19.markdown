@@ -1,12 +1,4 @@
-*Chapter 19*
 
-Practical Information
-
-This chapter closed  the book reviewing:
-
-* the basics of search engine optimization
-* using analytics to improve site performance
-* putting your site on the web
 
 **SEO*
 * using this crudely designed fansite for david hasslehoff-dhfans.com- implement the 6 SEO opitmization tips on page 480 to improve it's search engine visability

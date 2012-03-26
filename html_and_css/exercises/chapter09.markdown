@@ -1,7 +1,7 @@
 # Chapter 09: Flash Video and Audio
 
 ###Base Expectations:
-Complete Exercises 1-9 per the instructions here by embedding audio and video files into the HTML page 'Flash Video & Audio.html' included in resources/chapter09.  You may use the sample audio and video files supplied under their respective folders in resources/chapter09.  Please note that the CSS for the HTML page has been configured so as to center all elements once they are placed on the page, per the reference implementation.
+Complete Exercises 1-9 per the instructions here by embedding audio and video files into the HTML page 'Flash Video & Audio.html' included in resources/chapter09.  You may use the sample audio and video files supplied under their respective folders in resources/chapter09.  Please note that the CSS for the HTML page has been configured so as to center all elements once they are placed on the page, per the reference Implementation.
 
 ###Exercises:
 1. Embed a flash movie into the web page.

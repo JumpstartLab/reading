@@ -6,7 +6,7 @@
 
 ## Excercises
 
-1. Using the embedded style sheet in `<head>`, set the entire document to `"Helvetica Neue"`. (Be sure to include the quotes, as you need them for fonts with more than one word.)  This snazzy font is installed by default on Mac systems, but not on Windows/Linux. It's a sans-serif font, so include some fallback sans-serif font and the generic font type.
+1. Using the embedded style sheet in `<head>`, set the entire document to `"Helvetica Neue"`. (Be sure to include the quotes, as you need them for fonts with more than one word.)  This snazzy font is installed by de 4pxfault on Mac systems, but not on Windows/Linux. It's a sans-serif font, so include some fallback sans-serif font and the generic font type.
 2. Set the header tags to a serif font of your choosing. If you picked Times New Roman, you picked wrong and should pick again :).
 3. Fill in the type size (in pixels) for the body and header tags so that they agree with the sixteen pixel scale. Sixteen pixels is a great base size to use.
 4. Using `@font-face`, change the 'h1' element to the `MuseoSlab500` font. Make sure you downloaded and reference the `Museo_Slab_500.otf`. (It's a free font available from fontsquirrel.com). "Otf" fonts are one of the most compatable types of web fonts. 

@@ -1,0 +1,28 @@
+fieldset {
+  width: 350px;
+  border: 5px solid red;
+}
+
+fieldset.details input {
+  border-radius: 5px;
+  background-color: LightPink;
+  margin: 10px;
+}
+
+input#submit:hover {
+  cursor: pointer;
+}
+
+textarea {
+  background-color: white;
+  color: black;
+}
+
+textarea:hover, textarea:focus{
+  background-color: black;
+  color: white;
+}
+
+legend{
+  background-color: cyan;
+}

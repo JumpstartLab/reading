@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+  body {
+    background-image: url("https://github.com/JumpstartLab/reading/blob/master/html_and_css/resources/chapter16/images/spring_background.jpg?raw=true");
+    background-repeat: repeat-y;
+    background: #b4ddb4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* IE10+ */
+    background: linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+  }
+
+  img.large {
+    width:300;
+    height:300;
+  }
+
+  img.medium {
+    width:200;
+    height:200;
+  }
+
+  img.small {
+    width:100px;
+    height:100px;
+  }
+
+  img.left {
+    float:left;
+  }
+
+  img.right {
+    float:right;
+  }
+
+  img.center {
+    margin:0 auto;
+  }
+</style>
+</head>
+<body>
+  <h1>Charles</h1>
+  <img src='images/ash.png' alt='ash' class='large'>
+
+  <img src='images/ash.png' alt='ash' class='medium'>
+
+  <img src='images/ash.png' alt='ash' class='small'>
+
+  <p>
+    <img src='images/ash.png' alt='ash' class='large left'>
+    This is some text, broseph.
+  </p>
+  <div style='clear:both;'>
+    <p>
+      <img src='images/ash.png' alt='ash' class='large right'>
+      This is some text, broseph.
+    </p>
+    <div style='clear:both;'>
+    <p>
+      <img src='images/ash.png' alt='ash' class='large center'>
+      This is some text, broseph.
+    </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body { 
+  padding:0;
+  margin:0;
+  color: white;
+  font-family: Palatino, sans-serif;
+  text-shadow: 1px 1px 7px black;
+  background: url('images/wood-background.jpg') repeat-y top left;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+  background: linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+div#wrapper { 
+  width: 680px;
+  margin: auto; 
+  padding: 20px;
+  background: url('images/spring_background.jpg') no-repeat center top;
+}
+div#banner {
+  height: 75px;
+  padding: 10px;
+  background: url('images/wood-background.jpg') repeat top left;
+}
+img { border: 3px solid black; }
+p { padding: 5px; }
+img.small { width: 100px; }
+img.medium { width: 200px; }
+img.large { width: 300px; }
+img.left { float: left; }
+img.right { float: right; }
+img.center { margin: auto; display: block; }
+h1 { text-align: center; }

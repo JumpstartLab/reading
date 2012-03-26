@@ -24,14 +24,10 @@ body {
   padding: 10px;
   margin: 10px;
 }
-.column1, 
-.column2, 
-.column3 {
+
+.col {
   background-color: #99ccff;
-  width: 280px;
-  float: left;
-  margin: 10px; 
-  padding: 10px;
+  padding: 5px;
 }
 
 li {

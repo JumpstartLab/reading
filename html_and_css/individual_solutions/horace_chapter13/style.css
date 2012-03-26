@@ -1,0 +1,21 @@
+#container {
+  margin: 10px auto 10px auto;
+  max-width: 600px;
+  border-width: 20px;
+  border-style: solid;
+  background: red;
+  padding: 20px;
+}
+* {
+  font-family: Helvetica;
+}
+
+#content {
+  margin: 20px auto 20px auto;
+  max-width: 200px;
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  color: white;
+  background: blue;
+}

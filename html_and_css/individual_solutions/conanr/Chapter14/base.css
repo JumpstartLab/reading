@@ -1,0 +1,7 @@
+fieldset		{ width: 350px; border: 5px solid Red; }
+fieldset legend	{ background-color: Cyan; }
+.rounded 		{ border-radius: 5px; background-color: #FFC2C2; margin: 10px; }
+.btn_submit		{ cursor: hand }
+#comments		{ background-color: White; color: Black; }
+#comments:focus	{ background-color: Black; color: White; }
+#comments:hover	{ background-color: Black; color: White; }

@@ -1,0 +1,30 @@
+body{ 
+  font-family: Verdana, Arial, sans-serif;
+}
+
+h1{
+  color:#EE3E80;
+}
+
+h2{ 
+  color:#000000;
+}
+
+h3{
+  color:#665544;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+p{
+  font-size:13px;
+}
+
+b{
+  color: red;
+  text-decoration: underline;
+}
+
+.paragraph_list{
+  color:red;
+}

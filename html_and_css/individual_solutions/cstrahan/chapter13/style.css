@@ -1,0 +1,14 @@
+div#container {
+  margin:auto;
+  padding:25px;
+  background:red;
+  border:15px solid black;
+}
+
+div#content {
+  color:white;
+  padding:10px;
+  margin:25 auto;
+  border:5px dotted white;
+  background:blue;
+}

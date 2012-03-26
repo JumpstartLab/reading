@@ -1,0 +1,33 @@
+input[type=text] {
+  border-radius: 5px;
+  background-color: #ce758b;
+  margin: 15px;
+}
+
+input[type=email] {
+  border-radius: 5px;
+  background-color: #ce758b;
+  margin: 15px
+}
+
+textarea:focus {
+  background-color: black;
+  color: white;
+}
+
+textarea:hover {
+  background-color: black;
+  color: white;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}
+
+fieldset {
+  border: 5px solid red;
+}
+
+legend {
+  background-color: cyan;
+}

@@ -1,0 +1,35 @@
+body {
+	background: url('../../../resources/chapter16/images/wood-background.jpg') repeat-y right top;
+background: -webkit-linear-gradient( #b5bdc8 0%,#828c95 100%,#28343b 100%);
+	 
+}
+
+
+h1.hero {
+	font: bold 3em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 350px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+img.small {
+	width:  100px;
+}
+
+img.medium {
+	width: 200px;
+}
+
+img.large {
+	width: 400px;
+}
+
+img.left {
+	float: left;
+	margin-right: 10px;
+}
+
+img.right {
+	float: right;
+	margin-left: 10px;
+}
+

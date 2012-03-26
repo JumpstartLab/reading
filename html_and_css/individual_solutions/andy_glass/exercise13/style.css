@@ -1,0 +1,16 @@
+div#container {
+  margin: auto;
+  border:10px solid black;
+  background:red;
+  padding:20px;
+  text-allign: center;
+}
+
+div#content {
+  text-allign: center;
+  margin:20px auto 20px auto;
+  padding:5px;
+  color:white;
+  border:5px dotted white;
+  background:blue;
+}

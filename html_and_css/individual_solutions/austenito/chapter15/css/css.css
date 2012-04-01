@@ -1,0 +1,47 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: helvetica, arial, sans-serif;
+  color: #ff0099;
+  background-color: #00ccff;
+}
+
+#header h1 {
+  display: inline-block;
+  font-size: 5em;
+  line-height: .1;
+  margin: 1%;
+}
+#content {
+  overflow: auto;
+}  
+
+#nav, 
+#feature, 
+#footer {
+  background-color: #99ccff;
+  padding: 1em;
+  margin: 1%;
+}
+.column1, 
+.column2, 
+.column3 {
+  background-color: #99ccff;
+  width: 31.3%;
+  float: left;
+  padding: 1em;
+  margin: 1%; 
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+ul {
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+#container {
+  width: 700px;
+  margin: auto;
+  border: 10px solid black;
+  background-color: red;
+}
+
+#content {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 5px dotted white;
+  color: white;
+  background-color: blue;
+}

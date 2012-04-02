@@ -1,0 +1,78 @@
+/****************
+Page Styles
+****************/
+
+body {
+	margin: 0;
+	font-family: verdana, sans-serif;
+	font-size: 100%;
+	background: #DDD;
+}
+
+#wrapper {
+	margin: 12px auto;
+	width: 940px;
+	height: 480px;
+	padding: 10px;
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	background: url('../images/paint.png') top left no-repeat;
+}
+
+/****************
+Content
+****************/
+
+h1{
+	font-size: 3.5em;
+	color: #FFF;
+	margin: 100px 0px 0px 50px;
+	width: 350px;
+	line-height: 1em;
+	float: left;
+}
+
+#description {
+	position: fixed;
+	width: 320px;
+	font-size: 1.03em;
+	line-height: 1.4em;
+	top: 65%;
+	left: 23%;
+	color: #777;
+}
+
+#bird {
+	margin-top: 5em;
+}
+
+#bird p {
+	padding-top: 150px;
+}
+
+#snow {
+	margin-top: 5em;
+}
+
+.youtube_video {
+	margin-top: 2.5em;
+	margin-right: 40px;
+	float:right;
+}
+
+embed {
+  width: 500px;
+  height: 400px;
+}
+
+#music-player {
+	margin-top: 15em;
+}
+
+video {
+	margin-top: 5em;
+}
+
+audio {
+	margin-top: 15em;
+}

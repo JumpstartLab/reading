@@ -1,0 +1,24 @@
+input[type=text], input[type=email] {
+  font-size: 120%;
+  background-color: mistyrose;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#comments:focus, #comments:hover {
+  background-color: black;
+  color: white;
+}
+
+input.button:hover {
+  cursor: pointer;
+}
+
+legend {
+  background-color: cyan;
+  }
+
+fieldset {
+  border: 5px solid red;
+  width: 350px;
+}

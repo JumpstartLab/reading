@@ -1,0 +1,30 @@
+/* 	CSS Styles for Chapter 10
+	Hungry Academy Assignment on "HTML & CSS"
+	By: Jacqueline Chenault (JQ) aka adigitalnative
+*/
+
+body {
+	font-family:Verdana, Arial, Sans-serif;
+}
+
+h1 {
+	color:#ee3e80;
+}
+
+p {
+	font-size:13px;
+}
+
+h3 {
+	color:#665544;
+	border:1px solid;
+	padding:5px;
+}
+
+#heading_two {
+	color:#000000;
+}
+
+#heading_two+p {
+	font-weight:bold;
+}

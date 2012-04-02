@@ -1,0 +1,52 @@
+#details {
+  max-width: 350px;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+#details legend {
+  background: cyan;
+}
+#review {
+  max-width: 350px;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+#review legend {
+  background: cyan;
+}
+
+input[type=text]{
+  background: rgb(200,120,120);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+input[type=email]{
+  background: rgb(200,120,120);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+textarea{
+  border-radius: 5px;
+  background: rgb(200,120,120);
+  margin: 10px;
+}
+
+textarea:hover{
+  background: black;
+  color: white;
+}
+
+textarea:focus{
+  background: black;
+  color: white;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}

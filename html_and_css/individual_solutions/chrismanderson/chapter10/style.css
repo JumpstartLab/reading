@@ -1,0 +1,25 @@
+body {
+  font-family: verdana, arial, sans-serif;
+}
+
+h1 {
+  color: #ee3e80;
+}
+
+p {
+  font-size: 13px;
+}
+
+h3 {
+  color: #665544;
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+}
+
+#heading_two {
+  color: black;
+}
+
+#heading_two + p {
+  font-weight: bold;
+}

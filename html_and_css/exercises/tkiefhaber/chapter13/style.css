@@ -1,0 +1,17 @@
+#container {height: 300px;
+      width: 600px;
+      background-color: red;
+      border-style: solid;
+      border-width: 10px;
+      align: center;
+      padding: 20px;}
+
+#content {height: 300px:;
+          width: 500px;
+          border-style: dotted;
+          border-width: 5px;
+          border-color: white;
+          background-color: blue;
+          color: white;
+          align: center;
+          padding: 5px;}

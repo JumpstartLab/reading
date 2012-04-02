@@ -1,0 +1,3 @@
+div#container { margin: 0 auto; border: 10px solid #000; background-color: red; padding: 20px; }
+
+div#content { margin: 20px auto; padding: 5px; border: 5px solid #fff; color: #fff; background-color: blue; }

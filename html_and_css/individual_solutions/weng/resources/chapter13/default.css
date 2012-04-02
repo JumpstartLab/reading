@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+#container {
+  text-align: left;
+  font-size: 16px;
+  margin: 0px auto 0px auto;
+  width: 800px;
+  background: red;
+  border: 10px solid black;
+  padding: 20px;
+}
+
+#content {
+  text-align: left;
+  color: white;
+  background: blue;
+  border: 5px dotted white; 
+  padding: 5px;
+  margin: 20px 0 20px 0;
+}

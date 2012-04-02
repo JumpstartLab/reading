@@ -68,7 +68,7 @@ The longest chapters have two people assigned, parcel it up however you see fit.
 ### Phase 1 - Individual
 
 1. Fork this repository
-2. Add your completed exercises as `html_and_css/exercises/githubusername/chapter01/index.html` for each chapter. Instead of copying resources, try referencing them directly from the resources folder.
+2. Add your completed exercises as `html_and_css/individual_solutions/githubusername/chapter01/index.html` for each chapter. Instead of copying resources, try referencing them directly from the resources folder.
 3. Push to Github
 4. Submit a pull request
 

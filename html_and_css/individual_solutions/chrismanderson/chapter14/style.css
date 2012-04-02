@@ -1,0 +1,28 @@
+input[type=email], [type=text] {
+	border-radius: 5px;
+	background-color: #cfb6b6;
+	margin: 10px;
+}
+
+input.button:hover {
+	cursor: pointer;
+}
+
+#comments:focus, #comments:hover {
+	background-color: black;
+	color: white;
+}
+
+#comments {
+	background-color: white;
+	color: black;
+}
+
+fieldset {
+	width:  350px;
+	border: 5px solid red;
+}
+
+legend {
+	background-color: cyan;
+}

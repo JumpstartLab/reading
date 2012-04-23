@@ -11,7 +11,7 @@ A train requires active and strong project management which is not tied to speci
 A good product requires a good user experience
 
 # Chapter 5
-As a product manager you are responsobile for defining the right product, while the engineer is responsible for building the product right.
+As a product manager you are responsible for defining the right product, while the engineer is responsible for building the product right.
 
 # Chapter 6
 Traits that are important for a good product manager are: customer empathy, intelligence, work ethic, integrity, confidence, attitude, skills, applying technology, focus, time management, communication skills, business skills.

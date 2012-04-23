@@ -1,3 +1,7 @@
+## HTML & CSS
+
+Let's read and work through HTML & CSS by Jon Duckett: http://www.amazon.com/dp/1118008189/
+
 ## Assignment
 
 For this book we will:

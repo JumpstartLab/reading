@@ -2,7 +2,7 @@
 
 ### Group
 
-Group members:
+Group members: Melanie, Andrew, Dan, Conan
 
 ### Discussion Summary
 

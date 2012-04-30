@@ -2,7 +2,7 @@
 
 ### Group
 
-Group members: 
+Group members: Mike Silvis, Mary Cutrali, Darrell Rivera, Travis Valentine
 
 ### Discussion Summary
 

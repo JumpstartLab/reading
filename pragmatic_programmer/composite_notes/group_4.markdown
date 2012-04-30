@@ -2,7 +2,7 @@
 
 ### Group
 
-Group members: 
+Group members: Nisarg Shah & Conan Rimmer & Michael Verdi
 
 ### Discussion Summary
 

@@ -22,15 +22,14 @@ We'll use these notes in reading group.
 
 #### Groups
 
-
 For today's reading group let's break into small discussions:
 
-Group 0: Tom Kiefhaber & Daniel Kaufman & Andrew Thal & Melanie Gilman
-Group 1: Austen Ito & Horace Williams & Jan Koszewski & Edward Weng
-Group 2: Jonan Scheffler & Mark Tabler & Jacqueline Chenault & Charles Strahan
-Group 3: Elise Worthy & Michael Chlipala & Andrew Glass & Christopher Maddox
-Group 4: Nisarg Shah & Conan Rimmer & Michael Verdi
-Group 5: Mike Silvis & Mary Cutrali & Travis Valentine & Darrel Rivera
+* Group 0: Tom Kiefhaber & Daniel Kaufman & Andrew Thal & Melanie Gilman
+* Group 1: Austen Ito & Horace Williams & Jan Koszewski & Edward Weng
+* Group 2: Jonan Scheffler & Mark Tabler & Jacqueline Chenault & Charles Strahan
+* Group 3: Elise Worthy & Michael Chlipala & Andrew Glass & Christopher Maddox
+* Group 4: Nisarg Shah & Conan Rimmer & Michael Verdi
+* Group 5: Mike Silvis & Mary Cutrali & Travis Valentine & Darrel Rivera
 
 #### Schedule
 

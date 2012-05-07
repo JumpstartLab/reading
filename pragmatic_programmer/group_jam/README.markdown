@@ -13,6 +13,7 @@ Fill your response under your groups heading below and submit a pull request:
 ### Chapter/Group 4
 
 ### Chapter/Group 5
+Avoid making assumptions and think critically. To protect from change | think of the revolution | and write some shy code | Devils in details | dynamically managed | can be kept at bay. This will make code #flexiblelikegumby.
 
 ### Chapter/Group 6
 

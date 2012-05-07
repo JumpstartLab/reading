@@ -27,3 +27,41 @@ Tip:30. You can't write perfect software
 
 Tip:32. Crash Early
         A program that is active and malfunctioning under the radar is far more dangerous that one that is halted or is failing in an obvious way.
+
+
+
+## Chapter 5
+Your software should be as abstract as possible for maximum flexibility.
+
+40. Desgin Using Services
+Your method for parsing database indices should be a method for parsing database indices, not a method for parsing database indices for application X.
+
+41. Always Design for Concurrency
+Two methods should not be made temporally dependent unless their functions are actually temporally dependent.
+
+## Chapter 6
+There's the actual code writing, then there's everything that goes around the code writing; master both.
+
+45. Estimate the Order of Your Algorithms
+If you nest loops, you should feel in your bones that there is a cost to that and think about how to avoid that cost.
+
+49. Test Your Software or your Users Will
+Your code will either expose its rough edges in your dev lab or in production, and you get to choose which.
+
+## Chapter 7
+If writing software is like painting, then getting your project assembled correctly is like stretching & priming your canvas.
+
+52. Work with a User to Think Like a User
+In order to help a user write their requirements list, walk a mile in their shoes and see what your requirements list is.
+
+55. Don't Think Outside The Box: Find The Box
+Part of finding "the simplest thing that could possibly work" is never having to hear "I never said you couldn't [xyz]."
+
+## Chapter 8
+Everything you just read applies to code that you can't comfortably write in a month, too.
+
+65. Test State Coverage, Not Code Coverage
+Master the art of asking important "What happens when" questions, and write tests to answer them.
+
+70. Sign Your Work
+Software development is a meritocracy. Your career is as good as your reputation. Build & protect it with awesome code, and put your name on what you do.

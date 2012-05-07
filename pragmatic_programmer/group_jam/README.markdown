@@ -5,6 +5,7 @@ Each group needs to review the individually submitted notes/tweets for their cha
 Fill your response under your groups heading below and submit a pull request:
 
 ### Chapter/Group 1
+Keep your code clean. Technical debt has a snowball effect where a little becomes a lot really quickly.
 
 ### Chapter/Group 2
 

@@ -15,6 +15,7 @@ Fill your response under your groups heading below and submit a pull request:
 ### Chapter/Group 5
 
 ### Chapter/Group 6
+"Think smart when you are coding.  Think critically, refactor, program INTENTIONALLY, and write code thats easy to test."
 
 ### Chapter/Group 7
 

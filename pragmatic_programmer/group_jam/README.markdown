@@ -9,6 +9,7 @@ Fill your response under your groups heading below and submit a pull request:
 ### Chapter/Group 2
 
 ### Chapter/Group 3
+Use one editor well. Save time and brain bandwidth by keeping it simple.
 
 ### Chapter/Group 4
 

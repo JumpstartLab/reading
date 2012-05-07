@@ -13,11 +13,11 @@ For today's reading group let's break into small groups of three:
 
 #### Schedule
 
-* 3:30 - Gather into groups & discuss your chapter
-* 3:40 - Review Individual Submissions/Notes
-* 3:55 - Select your favorite & practice
-* 4:05 - Break / Regroup into main room & sit with your group
-* 4:10 - Full group discussion
+* 2:30 - Gather into groups & discuss your chapter
+* 2:35 - Review Individual Submissions/Notes
+* 2:55 - Select your favorite & practice
+* 3:00 - Break / Regroup into main room & sit with your group
+* 3:05 - Full group discussion
 
 #### Small Group
 
@@ -28,4 +28,4 @@ For today's reading group let's break into small groups of three:
 
 https://github.com/JumpstartLab/reading/blob/master/pragmatic_programmer/group_jam/README.markdown
 
-Be back in the main room, pull request submitted, and seated with your group at 4:10.
+Be back in the main room, pull request submitted, and seated with your group at 3:05.

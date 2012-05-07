@@ -22,3 +22,27 @@
 ####Tips
 *Design by Contract: Keep a record of work that you do and allow the contract to make sure that code does not do more or less than promised. 
 *Finish What You Start: A process that allocates a resource should also deallocate it. When you need to, nest allocations.
+
+##Chapter 5 
+*Life doesn't stand still. Neither can code that we write. 
+####Tips 
+* good Fences Make Good Neighbors. Decouple! 
+* good way to stay flexible: write less code. 
+
+##Chapter 6
+*We should avoid programming by convenience in favor of programming deliberately. 
+####Tips 
+*You can estimate order of basic algorithms using common sense. 
+*Refactor Early, Refactor Often. fewer headaches and terrible code later.  
+
+##Chapter 7
+*Does "seeing further" require you to predict the future? NO. 
+####Tips 
+*Dig for Requirements: They are oftend shrouded by misconceptions and assumptions. 
+*Find the Box: Identify constraints and question your own methods (does it have to be done this way?).
+
+##Chapter 8
+*As soon as you have more than one person on a project: establish ground rules and delegate accordingly.
+####Tips 
+*Organize Around Functionality: don't seperate designers from coders and testers from database engineers.
+*Coding Ain't Done Til All the Tests Run: 'Nuff Said. 

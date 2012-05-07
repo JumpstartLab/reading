@@ -22,8 +22,8 @@ For today's reading group let's break into small groups of three:
 #### Small Group
 
 1. In your groups, spend a few minutes discussing your chapter. What were the key ideas? What was interesting?
-2. Review the individually submitted tweets for your chapter and choose a favorite.
-3. Select one member of your group who will perform it in the style of Def Poetry Jam
+2. Review the individually submitted tweets for your chapter and choose a favorite. If you so choose, you may remix a few of them together.
+3. Select one member of your group who will perform it in the style of Def Poetry Jam (http://www.youtube.com/watch?v=kozv2POJS0I)
 4. Add the tweet to the group document here and submit a pull request:
 
 https://github.com/JumpstartLab/reading/blob/master/pragmatic_programmer/group_jam/README.markdown

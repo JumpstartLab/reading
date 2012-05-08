@@ -12,6 +12,7 @@ Fill your response under your groups heading below and submit a pull request:
 Use one editor well. Save time and brain bandwidth by keeping it simple.
 
 ### Chapter/Group 4
+  * To prevent against programming imperfection, write with paranoia; test, never couple, and reserve exceptions for exceptional things.
 
 ### Chapter/Group 5
 Avoid making assumptions and think critically. To protect from change | think of the revolution | and write some shy code | Devils in details | dynamically managed | can be kept at bay. This will make code #flexiblelikegumby.

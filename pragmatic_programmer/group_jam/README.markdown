@@ -20,3 +20,17 @@ Use one editor well. Save time and brain bandwidth by keeping it simple.
 ### Chapter/Group 7
 
 ### Chapter/Group 8
+
+Horace Williams -
+Pods of Programmers Profit from Pragmatic Principles as
+well. Your pragmatic principles will only be effective if the whole
+team employs them as well.
+
+Michael Verdi -
+Don't silo coders from designers or documenters; pragmatic teams build pragmatic software.
+
+Austen Ito -
+Ruthless Testing: When a human finds a bug, that should be the last time a
+human encounters that bug. Ruthless testing means to create a test for the bug
+and automating detection of that behavior. Everything from unit to regression
+testing must be addressed.

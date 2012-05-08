@@ -17,6 +17,7 @@ Use one editor well. Save time and brain bandwidth by keeping it simple.
 Avoid making assumptions and think critically. To protect from change | think of the revolution | and write some shy code | Devils in details | dynamically managed | can be kept at bay. This will make code #flexiblelikegumby.
 
 ### Chapter/Group 6
+"Think smart when you are coding.  Think critically, refactor, program INTENTIONALLY, and write code thats easy to test."
 
 ### Chapter/Group 7
 

@@ -4,7 +4,8 @@ For 5/21 read and work through ["jQuery Novice to Ninja"](http://amzn.to/IDSkIF)
 
 Beyond working through the book on your own, apply some of the ideas/techniques to your FeedEngine project.
 
-In the `individual_notes` folder, create a markdown file that links to a commit up on your public project along with a narrative explanation of how/why you used jQuery.
+In the `individual_notes` folder, create a markdown file that documents *two* features you've personally added to your 
+FeedEngine project along with a narrative explanation of how/why you used jQuery.
 
 ### Format & Example
 

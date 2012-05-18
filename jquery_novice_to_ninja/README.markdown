@@ -15,9 +15,13 @@ Structure you file like this:
 
 ### 1. Adding New Messages
 
-In our project we have the dashboard page which displays the current feed items along with the form to add a new item. When the user adds a new item the page refreshes and it's a bit jarring.
+In our project we have the dashboard page which displays the current feed 
+items along with the form to add a new item. When the user adds a new item
+the page refreshes and it's a bit jarring.
 
-I decided to use jQuery to submit the form asyncronously, fetch the data via AJAX, then use the slide-down animation to make it appear at the beginning of the feed. You can see the changes in this commit:
+I decided to use jQuery to submit the form asyncronously, fetch the data
+via AJAX, then use the slide-down animation to make it appear at the
+beginning of the feed. You can see the changes in this commit:
 
 https://github.com/JumpstartLab/curriculum/commit/cfdd9d026fd0c2faaf86c2469aeda89c2966b275
 

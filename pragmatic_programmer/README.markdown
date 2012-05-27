@@ -20,10 +20,6 @@ We'll use these notes in reading group.
 
 ### Phase 2 - Group
 
-1. Gather into your group
-2. Pull the latest code from the master repository
-3. Collate and distill individual responses(*)
-4. Add them to the document for your chapter
-5. Push and submit a pull request
+The notes for the 4/30 session on the first four chapters are in `review_session_1.markdown`
 
-*More details about the group session forthcoming*
+The notes for the 5/7 session on the whole book are in `review_session_2.markdown`

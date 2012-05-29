@@ -26,3 +26,7 @@ These will be used in the group discussion on 5/29.
 * add your notes under the proper folder
 * push it up to github
 * submit a pull request no later than 1PM on 5/29
+
+### Group Discussion
+
+Discussion questions go here.

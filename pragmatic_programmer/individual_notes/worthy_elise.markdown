@@ -28,7 +28,7 @@ No one writes perfect code, so use assertive programming and defensive measures 
 
 * If it can't happen, use assertions to ensure it won't. Don't make assumptions that something can't happen - write code to check that it won't.
 
-* Use exceptions for exceptional problems. Exceptions as normal process lose readibility and maintainability and break the rule of encapsulation. 
+* Use exceptions for exceptional problems. Exceptions as normal process lose readability and maintainability and break the rule of encapsulation. 
 
 #Chapter 5  
 

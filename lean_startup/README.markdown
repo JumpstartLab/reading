@@ -36,7 +36,7 @@ Gather into small groups to discuss the questions below.
 Each group should edit the corresponding file in the `group_notes` folder with the ideas from their discussion. 
 Each group member should be responsible for recording the notes for one question.
 
-Gather back together in the main room with your pull request submitted by 10:00.
+Gather back together in the main room with your pull request submitted by 10:15.
 
 #### Groupings
 

@@ -1,0 +1,23 @@
+## jQuery: Novice to Ninja
+
+### 1. ToolTips for Account Link
+
+In our project we have an account link funnel. Just another (mostly superfluous feature) to let them know that they can link their account. 
+
+I decided to use jQuery to show a tooltip when the user hovers over the github image. the tip will move with them as they scroll to the button. 
+
+https://github.com/chrismanderson/feed_engine/commit/671d9ad1183d74b72fb7a229f7bd290871774099
+
+Eventually, you will be able to view this at polutropos.com (however at the moment, it is not available in production & may be removed from our project)
+
+
+
+### 1. Character counter for text posts 
+
+Text posts can only be 512 characters, this counter will help users stay within the limits for text posts. 
+
+I decided to use jQuery to have a synchronous text counter so that users would not receive ugly error messages when posting text. 
+
+https://github.com/chrismanderson/feed_engine/commit/671d9ad1183d74b72fb7a229f7bd290871774099
+
+Eventually, you will be able to view this at polutropos.com (however at the moment, it is not available in production & may be removed from our project)

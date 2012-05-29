@@ -8,8 +8,8 @@ A, B, C, D
 
 ### Question 1
 
-The concept of "The Lean Startup" is very pervasive in the development community right now. 
-What new insights or corrections to previous understandings did you develop in reading the text? 
+The concept of "The Lean Startup" is very pervasive in the development community right now.
+What new insights or corrections to previous understandings did you develop in reading the text?
 What elements get lost in the cocktail-conversation-level understanding of the book?
 
 #### Notes
@@ -18,7 +18,7 @@ What elements get lost in the cocktail-conversation-level understanding of the b
 
 ### Question 2
 
-The principles from "The Lean Startup" are easily applied to software. 
+The principles from "The Lean Startup" are easily applied to software.
 But how would you use them to develop and launch a restaurant?
 
 #### Notes
@@ -27,7 +27,7 @@ But how would you use them to develop and launch a restaurant?
 
 ### Question 3
 
-How do the perscriptions of "The Lean Startup" match up with those from "Inspired"? 
+How do the perscriptions of "The Lean Startup" match up with those from "Inspired"?
 How do they conflict? How do you see LivingSocial practicing the ideas from "The Lean Startup"?
 
 #### Notes
@@ -46,7 +46,7 @@ Would the iPod exist?
 ### Further Discussion
 
 Imagine the internet gets unplugged and we need to find new careers. You've got $5K to start a lean business.
-What would you pursue? What would be your value hypothesis? Growth hypothesis? 
+What would you pursue? What would be your value hypothesis? Growth hypothesis?
 
 #### Notes
 

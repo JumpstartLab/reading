@@ -30,11 +30,11 @@ But how would you use them to develop and launch a restaurant?
 
 #### Notes
 
-* 1 - try starting it out of your house/an available kitchen before making huge investments in industrial cooking facility
-* 2 - Be adaptive with your concept/menu/ambience - most restuarants try to roll out with a thoroughly developed concept, but what would it look like if you developed the concept gradually as you gained customers.
-* 3 - Use friends/family as test-customers -- or better yet find actual strangers -- to validate demand and make sure your stuff is good.
-* 4 - Keep an eye on profit margins etc.
-* 5 - Keep the mindset of iterating and being open to new opportunities. Many small businesses fail because they have only one idea, and if it doesn't pan out they aren't prepared to iterate and develop new ones.
+1. try starting it out of your house/an available kitchen before making huge investments in industrial cooking facility
+- Be adaptive with your concept/menu/ambience - most restuarants try to roll out with a thoroughly developed concept, but what would it look like if you developed the concept gradually as you gained customers.
+- Use friends/family as test-customers -- or better yet find actual strangers -- to validate demand and make sure your stuff is good.
+- Keep an eye on profit margins etc.
+ Keep the mindset of iterating and being open to new opportunities. Many small businesses fail because they have only one idea, and if it doesn't pan out they aren't prepared to iterate and develop new ones.
 
 ### Question 3
 
@@ -43,11 +43,11 @@ How do they conflict? How do you see LivingSocial practicing the ideas from "The
 
 #### Notes
 
-* 1 - cross-functional teams to get feedback loop smaller again
-* 2 - results only work environment
-* 3 - LivingSocial working with KPIs that measure each product according to what it should be measured by.  That allows iteration based on the proper metrics.
-* 4 - Conflict with fast moving, tightly controlled, measured, iterate.  Different from ROWE which could set people free to figure it out and not necessarily encourage as much structure.
-* 5 - Lean Startup is more for management, Inspired is more anti-management.
+1. cross-functional teams to get feedback loop smaller again
+- results only work environment
+- LivingSocial working with KPIs that measure each product according to what it should be measured by.  That allows iteration based on the proper metrics.
+- Conflict with fast moving, tightly controlled, measured, iterate.  Different from ROWE which could set people free to figure it out and not necessarily encourage as much structure.
+- Lean Startup is more for management, Inspired is more anti-management.
 
 ### Question 4
 
@@ -56,9 +56,9 @@ Would the iPod exist?
 
 #### Notes
 
-* 1 - Competition from someone who has more money could release something with more features
-* 2 - Easier to get off the ground by going lean
-* 3 - Encourages businesses to settle on what works first versus keeping something that may be creative but hard to get off the ground
+1. Competition from someone who has more money could release something with more features
+- Easier to get off the ground by going lean
+- Encourages businesses to settle on what works first versus keeping something that may be creative but hard to get off the ground
 
 ### Further Discussion
 
@@ -67,6 +67,6 @@ What would you pursue? What would be your value hypothesis? Growth hypothesis?
 
 #### Notes
 
-* 1 - Food truck with four mini food items and test them around in different areas and see what sells best where
-* 2 - Value hypothesis: do people find value in food?  yes
-* 3 - Growth hypothesis: flashy truck, sirens blaring, word of mouth
+1. Food truck with four mini food items and test them around in different areas and see what sells best where
+* Value hypothesis: do people find value in food?  yes
+* Growth hypothesis: flashy truck, sirens blaring, word of mouth
